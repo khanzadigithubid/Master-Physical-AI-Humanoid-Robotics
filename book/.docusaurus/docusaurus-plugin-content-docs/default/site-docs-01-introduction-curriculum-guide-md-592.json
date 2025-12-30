@@ -1,0 +1,27 @@
+{
+  "id": "introduction/curriculum-guide",
+  "title": "Curriculum Guide",
+  "description": "How to Navigate This Textbook",
+  "source": "@site/docs/01-introduction/curriculum-guide.md",
+  "sourceDirName": "01-introduction",
+  "slug": "/introduction/curriculum-guide",
+  "permalink": "/docs/introduction/curriculum-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Curriculum Guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physical AI Definition",
+    "permalink": "/docs/introduction/physical-ai-definition"
+  },
+  "next": {
+    "title": "Prerequisites",
+    "permalink": "/docs/introduction/prerequisites"
+  }
+}

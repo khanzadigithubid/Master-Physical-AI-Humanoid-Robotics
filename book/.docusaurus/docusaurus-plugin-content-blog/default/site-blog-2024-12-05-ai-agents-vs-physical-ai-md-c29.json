@@ -1,0 +1,65 @@
+{
+  "permalink": "/blog/ai-agents-vs-physical-ai",
+  "source": "@site/blog/2024-12-05-ai-agents-vs-physical-ai.md",
+  "title": "AI Agents vs Physical AI - Understanding the Key Differences",
+  "description": "The artificial intelligence landscape encompasses diverse system types with fundamentally different characteristics. Two categories receiving significant attention are AI agents operating in digital environments and Physical AI systems that interact with the real world. Understanding the distinctions between these categories is essential for researchers, developers, and students seeking to navigate this rapidly evolving field.",
+  "date": "2024-12-05T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Physical AI",
+      "permalink": "/blog/tags/physical-ai",
+      "description": "Content related to Physical AI systems and embodied intelligence"
+    },
+    {
+      "inline": false,
+      "label": "Fundamentals",
+      "permalink": "/blog/tags/fundamentals",
+      "description": "Core concepts and foundational knowledge"
+    },
+    {
+      "inline": false,
+      "label": "Research",
+      "permalink": "/blog/tags/research",
+      "description": "Latest research and academic papers"
+    }
+  ],
+  "readingTime": 4.45,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Physical AI Team",
+      "title": "Textbook Contributors",
+      "url": "https://github.com/khanzadiwazirali/physical-ai-textbook",
+      "page": {
+        "permalink": "/blog/authors/ai-team"
+      },
+      "socials": {
+        "github": "https://github.com/khanzadiwazirali"
+      },
+      "imageURL": "https://ui-avatars.com/api/?name=AI+Team&background=6366f1&color=fff",
+      "key": "ai_team"
+    }
+  ],
+  "frontMatter": {
+    "slug": "ai-agents-vs-physical-ai",
+    "title": "AI Agents vs Physical AI - Understanding the Key Differences",
+    "authors": [
+      "ai_team"
+    ],
+    "tags": [
+      "physical-ai",
+      "fundamentals",
+      "research"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "The Role of Simulation in Robotics Development",
+    "permalink": "/blog/role-of-simulation-in-robotics"
+  },
+  "nextItem": {
+    "title": "What Are Humanoid Robots? Understanding Human-Shaped Machines",
+    "permalink": "/blog/what-are-humanoid-robots"
+  }
+}

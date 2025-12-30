@@ -1,0 +1,27 @@
+{
+  "id": "ai-for-robotics/reinforcement-learning",
+  "title": "Reinforcement Learning for Robotics",
+  "description": "Introduction",
+  "source": "@site/docs/04-ai-for-robotics/reinforcement-learning.md",
+  "sourceDirName": "04-ai-for-robotics",
+  "slug": "/ai-for-robotics/reinforcement-learning",
+  "permalink": "/docs/ai-for-robotics/reinforcement-learning",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Reinforcement Learning for Robotics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SLAM (Simultaneous Localization and Mapping)",
+    "permalink": "/docs/perception-systems/slam"
+  },
+  "next": {
+    "title": "Foundation Models for Robotics",
+    "permalink": "/docs/ai-for-robotics/foundation-models"
+  }
+}

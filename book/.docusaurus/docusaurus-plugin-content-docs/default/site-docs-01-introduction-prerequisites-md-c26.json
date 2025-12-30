@@ -1,0 +1,27 @@
+{
+  "id": "introduction/prerequisites",
+  "title": "Prerequisites",
+  "description": "Mathematics & Programming Foundations",
+  "source": "@site/docs/01-introduction/prerequisites.md",
+  "sourceDirName": "01-introduction",
+  "slug": "/introduction/prerequisites",
+  "permalink": "/docs/introduction/prerequisites",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Prerequisites"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Curriculum Guide",
+    "permalink": "/docs/introduction/curriculum-guide"
+  },
+  "next": {
+    "title": "Robot Kinematics",
+    "permalink": "/docs/robotics-fundamentals/kinematics"
+  }
+}

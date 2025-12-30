@@ -1,0 +1,61 @@
+{
+  "permalink": "/blog/role-of-simulation-in-robotics",
+  "source": "@site/blog/2024-12-07-role-of-simulation-in-robotics.md",
+  "title": "The Role of Simulation in Robotics Development",
+  "description": "Simulation has become an indispensable tool in robotics research and development. Before any robot takes its first physical step or grasps its first object, extensive testing typically occurs in simulated environments. This approach addresses fundamental challenges in robotics development: physical robots are expensive, experiments are time-consuming, and failures can damage hardware or harm people.",
+  "date": "2024-12-07T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Simulation",
+      "permalink": "/blog/tags/simulation",
+      "description": "Robotics simulation environments and techniques"
+    },
+    {
+      "inline": false,
+      "label": "Physical AI",
+      "permalink": "/blog/tags/physical-ai",
+      "description": "Content related to Physical AI systems and embodied intelligence"
+    },
+    {
+      "inline": false,
+      "label": "Research",
+      "permalink": "/blog/tags/research",
+      "description": "Latest research and academic papers"
+    }
+  ],
+  "readingTime": 5.08,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Wazir Ali Khan",
+      "title": "Physical AI & Robotics Researcher",
+      "url": "https://github.com/khanzadiwazirali",
+      "page": {
+        "permalink": "/blog/authors/wazir"
+      },
+      "socials": {
+        "github": "https://github.com/khanzadiwazirali"
+      },
+      "imageURL": "https://github.com/khanzadiwazirali.png",
+      "key": "wazir"
+    }
+  ],
+  "frontMatter": {
+    "slug": "role-of-simulation-in-robotics",
+    "title": "The Role of Simulation in Robotics Development",
+    "authors": [
+      "wazir"
+    ],
+    "tags": [
+      "simulation",
+      "physical-ai",
+      "research"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "AI Agents vs Physical AI - Understanding the Key Differences",
+    "permalink": "/blog/ai-agents-vs-physical-ai"
+  }
+}

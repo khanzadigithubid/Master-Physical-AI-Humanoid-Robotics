@@ -1,0 +1,27 @@
+{
+  "id": "humanoid-robotics/bipedal-locomotion",
+  "title": "Bipedal Locomotion",
+  "description": "Introduction",
+  "source": "@site/docs/05-humanoid-robotics/bipedal-locomotion.md",
+  "sourceDirName": "05-humanoid-robotics",
+  "slug": "/humanoid-robotics/bipedal-locomotion",
+  "permalink": "/docs/humanoid-robotics/bipedal-locomotion",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Bipedal Locomotion"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Foundation Models for Robotics",
+    "permalink": "/docs/ai-for-robotics/foundation-models"
+  },
+  "next": {
+    "title": "Manipulation and Grasping",
+    "permalink": "/docs/humanoid-robotics/manipulation-grasping"
+  }
+}

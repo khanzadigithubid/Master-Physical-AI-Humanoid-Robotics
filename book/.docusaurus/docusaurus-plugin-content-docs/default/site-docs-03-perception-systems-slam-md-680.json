@@ -1,0 +1,27 @@
+{
+  "id": "perception-systems/slam",
+  "title": "SLAM (Simultaneous Localization and Mapping)",
+  "description": "Introduction",
+  "source": "@site/docs/03-perception-systems/slam.md",
+  "sourceDirName": "03-perception-systems",
+  "slug": "/perception-systems/slam",
+  "permalink": "/docs/perception-systems/slam",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "SLAM (Simultaneous Localization and Mapping)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Fusion Techniques",
+    "permalink": "/docs/perception-systems/sensor-fusion"
+  },
+  "next": {
+    "title": "Reinforcement Learning for Robotics",
+    "permalink": "/docs/ai-for-robotics/reinforcement-learning"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "permalink": "/blog/reinforcement-learning-basics",
+  "source": "@site/blog/2024-12-28-reinforcement-learning-basics.md",
+  "title": "Reinforcement Learning for Robotics: A Quick Start Guide",
+  "description": "Reinforcement Learning (RL) is the backbone of modern robot control. In this post, we'll cover the fundamentals you need to get started.",
+  "date": "2024-12-28T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Reinforcement Learning",
+      "permalink": "/blog/tags/reinforcement-learning",
+      "description": "Machine learning through trial and error"
+    },
+    {
+      "inline": false,
+      "label": "Tutorials",
+      "permalink": "/blog/tags/tutorials",
+      "description": "Step-by-step guides and learning resources"
+    },
+    {
+      "inline": false,
+      "label": "Physical AI",
+      "permalink": "/blog/tags/physical-ai",
+      "description": "Content related to Physical AI systems and embodied intelligence"
+    }
+  ],
+  "readingTime": 1.11,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Physical AI Team",
+      "title": "Textbook Contributors",
+      "url": "https://github.com/khanzadiwazirali/physical-ai-textbook",
+      "page": {
+        "permalink": "/blog/authors/ai-team"
+      },
+      "socials": {
+        "github": "https://github.com/khanzadiwazirali"
+      },
+      "imageURL": "https://ui-avatars.com/api/?name=AI+Team&background=6366f1&color=fff",
+      "key": "ai_team"
+    }
+  ],
+  "frontMatter": {
+    "slug": "reinforcement-learning-basics",
+    "title": "Reinforcement Learning for Robotics: A Quick Start Guide",
+    "authors": [
+      "ai_team"
+    ],
+    "tags": [
+      "reinforcement-learning",
+      "tutorials",
+      "physical-ai"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Welcome to the Physical AI & Humanoid Robotics Blog",
+    "permalink": "/blog/welcome-to-physical-ai"
+  }
+}

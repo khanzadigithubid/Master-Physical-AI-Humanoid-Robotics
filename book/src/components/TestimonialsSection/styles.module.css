@@ -1,0 +1,234 @@
+/* ========================================
+   TESTIMONIALS SECTION
+   Student reviews and social proof
+   ======================================== */
+
+.testimonialsSection {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #F8FAFC 0%, #E0E7FF 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonialsSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 50%, rgba(79, 70, 229, 0.05) 0%, transparent 50%),
+              radial-gradient(circle at 70% 80%, rgba(6, 182, 212, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-primary, #0F172A);
+}
+
+.sectionSubtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary, #64748B);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ========================================
+   TESTIMONIALS GRID
+   ======================================== */
+
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* ========================================
+   TESTIMONIAL CARD
+   ======================================== */
+
+.testimonialCard {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 2px solid transparent;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonialCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border-color: var(--color-primary, #4F46E5);
+}
+
+.quote {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-primary, #4F46E5);
+  opacity: 0.2;
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  font-family: Georgia, serif;
+}
+
+.testimonialText {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-secondary, #475569);
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  flex-grow: 1;
+  position: relative;
+  z-index: 1;
+}
+
+/* ========================================
+   RATING
+   ======================================== */
+
+.rating {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.star {
+  color: #F59E0B;
+  font-size: 1.25rem;
+}
+
+/* ========================================
+   AUTHOR INFO
+   ======================================== */
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-primary, #E2E8F0);
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4F46E5 0%, #06B6D4 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2);
+}
+
+.authorInfo {
+  flex: 1;
+}
+
+.authorName {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary, #0F172A);
+  margin-bottom: 0.25rem;
+}
+
+.authorRole {
+  font-size: 0.9rem;
+  color: var(--text-tertiary, #64748B);
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media screen and (max-width: 996px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .testimonialsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonialsSection {
+    padding: 3rem 0;
+  }
+
+  .testimonialsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonialCard {
+    padding: 1.75rem;
+  }
+
+  .quote {
+    font-size: 3rem;
+  }
+}
+
+/* ========================================
+   DARK MODE
+   ======================================== */
+
+[data-theme='dark'] .testimonialsSection {
+  background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+}
+
+[data-theme='dark'] .sectionTitle {
+  color: #F1F5F9;
+}
+
+[data-theme='dark'] .sectionSubtitle {
+  color: #94A3B8;
+}
+
+[data-theme='dark'] .testimonialCard {
+  background: #1E293B;
+  border-color: #334155;
+}
+
+[data-theme='dark'] .testimonialCard:hover {
+  border-color: #818CF8;
+}
+
+[data-theme='dark'] .quote {
+  color: #818CF8;
+}
+
+[data-theme='dark'] .testimonialText {
+  color: #CBD5E1;
+}
+
+[data-theme='dark'] .author {
+  border-top-color: #334155;
+}
+
+[data-theme='dark'] .authorName {
+  color: #F1F5F9;
+}
+
+[data-theme='dark'] .authorRole {
+  color: #94A3B8;
+}

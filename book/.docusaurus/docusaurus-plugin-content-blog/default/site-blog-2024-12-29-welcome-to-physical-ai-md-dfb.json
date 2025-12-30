@@ -1,0 +1,61 @@
+{
+  "permalink": "/blog/welcome-to-physical-ai",
+  "source": "@site/blog/2024-12-29-welcome-to-physical-ai.md",
+  "title": "Welcome to the Physical AI & Humanoid Robotics Blog",
+  "description": "Welcome to our blog! This is where we share the latest updates, tutorials, and insights about Physical AI and Humanoid Robotics.",
+  "date": "2024-12-29T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Physical AI",
+      "permalink": "/blog/tags/physical-ai",
+      "description": "Content related to Physical AI systems and embodied intelligence"
+    },
+    {
+      "inline": false,
+      "label": "Humanoid Robotics",
+      "permalink": "/blog/tags/humanoid-robotics",
+      "description": "Topics about humanoid robots and bipedal systems"
+    },
+    {
+      "inline": false,
+      "label": "Announcements",
+      "permalink": "/blog/tags/announcements",
+      "description": "News and updates about the textbook"
+    }
+  ],
+  "readingTime": 1.17,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Wazir Ali Khan",
+      "title": "Physical AI & Robotics Researcher",
+      "url": "https://github.com/khanzadiwazirali",
+      "page": {
+        "permalink": "/blog/authors/wazir"
+      },
+      "socials": {
+        "github": "https://github.com/khanzadiwazirali"
+      },
+      "imageURL": "https://github.com/khanzadiwazirali.png",
+      "key": "wazir"
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome-to-physical-ai",
+    "title": "Welcome to the Physical AI & Humanoid Robotics Blog",
+    "authors": [
+      "wazir"
+    ],
+    "tags": [
+      "physical-ai",
+      "humanoid-robotics",
+      "announcements"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Reinforcement Learning for Robotics: A Quick Start Guide",
+    "permalink": "/blog/reinforcement-learning-basics"
+  }
+}

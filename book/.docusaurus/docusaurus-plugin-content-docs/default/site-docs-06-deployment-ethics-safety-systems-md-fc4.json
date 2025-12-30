@@ -1,0 +1,23 @@
+{
+  "id": "deployment-ethics/safety-systems",
+  "title": "Safety Systems for Physical AI",
+  "description": "Introduction",
+  "source": "@site/docs/06-deployment-ethics/safety-systems.md",
+  "sourceDirName": "06-deployment-ethics",
+  "slug": "/deployment-ethics/safety-systems",
+  "permalink": "/docs/deployment-ethics/safety-systems",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Safety Systems for Physical AI"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manipulation and Grasping",
+    "permalink": "/docs/humanoid-robotics/manipulation-grasping"
+  }
+}

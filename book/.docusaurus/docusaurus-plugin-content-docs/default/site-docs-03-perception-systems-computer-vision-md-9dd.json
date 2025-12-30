@@ -1,0 +1,27 @@
+{
+  "id": "perception-systems/computer-vision",
+  "title": "Computer Vision Fundamentals",
+  "description": "Introduction",
+  "source": "@site/docs/03-perception-systems/computer-vision.md",
+  "sourceDirName": "03-perception-systems",
+  "slug": "/perception-systems/computer-vision",
+  "permalink": "/docs/perception-systems/computer-vision",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Computer Vision Fundamentals"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Actuators and Sensors",
+    "permalink": "/docs/robotics-fundamentals/actuators-sensors"
+  },
+  "next": {
+    "title": "LiDAR and 3D Sensors",
+    "permalink": "/docs/perception-systems/lidar-sensors"
+  }
+}

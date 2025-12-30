@@ -1,0 +1,27 @@
+{
+  "id": "robotics-fundamentals/actuators-sensors",
+  "title": "Actuators and Sensors",
+  "description": "Introduction",
+  "source": "@site/docs/02-robotics-fundamentals/actuators-sensors.md",
+  "sourceDirName": "02-robotics-fundamentals",
+  "slug": "/robotics-fundamentals/actuators-sensors",
+  "permalink": "/docs/robotics-fundamentals/actuators-sensors",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Actuators and Sensors"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Control Theory for Robotics",
+    "permalink": "/docs/robotics-fundamentals/control-theory"
+  },
+  "next": {
+    "title": "Computer Vision Fundamentals",
+    "permalink": "/docs/perception-systems/computer-vision"
+  }
+}

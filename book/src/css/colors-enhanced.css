@@ -1,0 +1,332 @@
+/**
+ * ENHANCED PROFESSIONAL COLOR PALETTE
+ * Hackathon-Ready Design System
+ *
+ * Usage: Import this in custom.css
+ * @import './colors-enhanced.css';
+ */
+
+:root {
+  /* ===============================================
+     PRIMARY COLOR - Deep Indigo
+     Usage: Main brand, buttons, links, active states
+     =============================================== */
+  --color-primary: #4F46E5;
+  --color-primary-dark: #4338CA;
+  --color-primary-darker: #3730A3;
+  --color-primary-darkest: #312E81;
+  --color-primary-light: #6366F1;
+  --color-primary-lighter: #818CF8;
+  --color-primary-lightest: #A5B4FC;
+
+  /* ===============================================
+     SECONDARY COLOR - Emerald Green
+     Usage: Success, completed, growth indicators
+     =============================================== */
+  --color-secondary: #10B981;
+  --color-secondary-dark: #059669;
+  --color-secondary-darker: #047857;
+  --color-secondary-darkest: #065F46;
+  --color-secondary-light: #34D399;
+  --color-secondary-lighter: #6EE7B7;
+  --color-secondary-lightest: #A7F3D0;
+
+  /* ===============================================
+     ACCENT COLOR - Vivid Cyan
+     Usage: CTAs, highlights, interactive elements
+     =============================================== */
+  --color-accent: #06B6D4;
+  --color-accent-dark: #0891B2;
+  --color-accent-darker: #0E7490;
+  --color-accent-darkest: #155E75;
+  --color-accent-light: #22D3EE;
+  --color-accent-lighter: #67E8F9;
+  --color-accent-lightest: #A5F3FC;
+
+  /* ===============================================
+     SEMANTIC COLORS
+     =============================================== */
+
+  /* Success - Emerald */
+  --color-success: #10B981;
+  --color-success-dark: #059669;
+  --color-success-light: #34D399;
+  --color-success-bg: #D1FAE5;
+  --color-success-text: #065F46;
+
+  /* Info - Indigo */
+  --color-info: #4F46E5;
+  --color-info-dark: #4338CA;
+  --color-info-light: #818CF8;
+  --color-info-bg: #E0E7FF;
+  --color-info-text: #312E81;
+
+  /* Warning - Amber */
+  --color-warning: #F59E0B;
+  --color-warning-dark: #D97706;
+  --color-warning-light: #FCD34D;
+  --color-warning-bg: #FEF3C7;
+  --color-warning-text: #92400E;
+
+  /* Danger/Error - Rose Red */
+  --color-danger: #EF4444;
+  --color-danger-dark: #DC2626;
+  --color-danger-light: #FCA5A5;
+  --color-danger-bg: #FEE2E2;
+  --color-danger-text: #991B1B;
+
+  /* ===============================================
+     NEUTRAL COLORS - Light Mode
+     =============================================== */
+  --color-white: #FFFFFF;
+  --color-slate-50: #F8FAFC;
+  --color-slate-100: #F1F5F9;
+  --color-slate-200: #E2E8F0;
+  --color-slate-300: #CBD5E1;
+  --color-slate-400: #94A3B8;
+  --color-slate-500: #64748B;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1E293B;
+  --color-slate-900: #0F172A;
+
+  /* ===============================================
+     BACKGROUND COLORS - Light Mode
+     =============================================== */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F8FAFC;
+  --bg-tertiary: #F1F5F9;
+  --bg-surface: #FFFFFF;
+  --bg-surface-raised: #FFFFFF;
+  --bg-surface-hover: #F8FAFC;
+
+  /* ===============================================
+     TEXT COLORS - Light Mode
+     =============================================== */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-tertiary: #64748B;
+  --text-quaternary: #94A3B8;
+  --text-disabled: #CBD5E1;
+  --text-inverse: #FFFFFF;
+  --text-link: #4F46E5;
+  --text-link-hover: #4338CA;
+
+  /* ===============================================
+     BORDER COLORS
+     =============================================== */
+  --border-primary: #E2E8F0;
+  --border-secondary: #CBD5E1;
+  --border-focus: #4F46E5;
+  --border-error: #EF4444;
+  --border-success: #10B981;
+
+  /* ===============================================
+     CODE SYNTAX HIGHLIGHTING
+     =============================================== */
+  --code-bg: #F1F5F9;
+  --code-text: #334155;
+  --code-keyword: #F43F5E;
+  --code-string: #10B981;
+  --code-function: #8B5CF6;
+  --code-variable: #06B6D4;
+  --code-number: #F59E0B;
+  --code-comment: #64748B;
+  --code-operator: #475569;
+
+  /* ===============================================
+     GRADIENTS
+     =============================================== */
+  --gradient-primary: linear-gradient(135deg, #4F46E5 0%, #818CF8 100%);
+  --gradient-secondary: linear-gradient(135deg, #10B981 0%, #34D399 100%);
+  --gradient-accent: linear-gradient(135deg, #06B6D4 0%, #22D3EE 100%);
+  --gradient-hero: linear-gradient(135deg, #4F46E5 0%, #818CF8 50%, #8B5CF6 100%);
+  --gradient-sunset: linear-gradient(135deg, #F59E0B 0%, #EF4444 100%);
+  --gradient-ocean: linear-gradient(135deg, #06B6D4 0%, #10B981 100%);
+
+  /* ===============================================
+     SHADOWS WITH COLOR
+     =============================================== */
+  --shadow-primary-sm: 0 1px 2px 0 rgba(79, 70, 229, 0.05);
+  --shadow-primary-md: 0 4px 6px -1px rgba(79, 70, 229, 0.1), 0 2px 4px -1px rgba(79, 70, 229, 0.06);
+  --shadow-primary-lg: 0 10px 15px -3px rgba(79, 70, 229, 0.1), 0 4px 6px -2px rgba(79, 70, 229, 0.05);
+
+  --shadow-accent-sm: 0 1px 2px 0 rgba(6, 182, 212, 0.05);
+  --shadow-accent-md: 0 4px 6px -1px rgba(6, 182, 212, 0.1), 0 2px 4px -1px rgba(6, 182, 212, 0.06);
+  --shadow-accent-lg: 0 10px 15px -3px rgba(6, 182, 212, 0.1), 0 4px 6px -2px rgba(6, 182, 212, 0.05);
+
+  /* ===============================================
+     CHART COLORS
+     =============================================== */
+  --chart-1: #4F46E5;
+  --chart-2: #10B981;
+  --chart-3: #06B6D4;
+  --chart-4: #F59E0B;
+  --chart-5: #8B5CF6;
+  --chart-6: #EC4899;
+  --chart-7: #14B8A6;
+  --chart-8: #F43F5E;
+}
+
+/* ===============================================
+   DARK MODE COLORS
+   =============================================== */
+
+[data-theme='dark'] {
+  /* PRIMARY COLOR - Electric Indigo (brighter for dark) */
+  --color-primary: #818CF8;
+  --color-primary-dark: #6366F1;
+  --color-primary-darker: #4F46E5;
+  --color-primary-darkest: #4338CA;
+  --color-primary-light: #A5B4FC;
+  --color-primary-lighter: #C7D2FE;
+  --color-primary-lightest: #E0E7FF;
+
+  /* SECONDARY COLOR - Bright Emerald */
+  --color-secondary: #34D399;
+  --color-secondary-dark: #10B981;
+  --color-secondary-darker: #059669;
+  --color-secondary-darkest: #047857;
+  --color-secondary-light: #6EE7B7;
+  --color-secondary-lighter: #A7F3D0;
+  --color-secondary-lightest: #D1FAE5;
+
+  /* ACCENT COLOR - Luminous Cyan */
+  --color-accent: #22D3EE;
+  --color-accent-dark: #06B6D4;
+  --color-accent-darker: #0891B2;
+  --color-accent-darkest: #0E7490;
+  --color-accent-light: #67E8F9;
+  --color-accent-lighter: #A5F3FC;
+  --color-accent-lightest: #CFFAFE;
+
+  /* SEMANTIC COLORS - Dark Mode */
+  --color-success: #34D399;
+  --color-success-dark: #10B981;
+  --color-success-light: #6EE7B7;
+  --color-success-bg: #064E3B;
+  --color-success-text: #A7F3D0;
+
+  --color-info: #818CF8;
+  --color-info-dark: #6366F1;
+  --color-info-light: #A5B4FC;
+  --color-info-bg: #312E81;
+  --color-info-text: #C7D2FE;
+
+  --color-warning: #FCD34D;
+  --color-warning-dark: #F59E0B;
+  --color-warning-light: #FDE68A;
+  --color-warning-bg: #78350F;
+  --color-warning-text: #FEF3C7;
+
+  --color-danger: #FCA5A5;
+  --color-danger-dark: #EF4444;
+  --color-danger-light: #FECACA;
+  --color-danger-bg: #7F1D1D;
+  --color-danger-text: #FEE2E2;
+
+  /* NEUTRAL COLORS - Dark Mode (reversed) */
+  --color-slate-50: #0F172A;
+  --color-slate-100: #1E293B;
+  --color-slate-200: #334155;
+  --color-slate-300: #475569;
+  --color-slate-400: #64748B;
+  --color-slate-500: #94A3B8;
+  --color-slate-600: #CBD5E1;
+  --color-slate-700: #E2E8F0;
+  --color-slate-800: #F1F5F9;
+  --color-slate-900: #F8FAFC;
+
+  /* BACKGROUND COLORS - Dark Mode */
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --bg-tertiary: #334155;
+  --bg-surface: #1E293B;
+  --bg-surface-raised: #334155;
+  --bg-surface-hover: #475569;
+
+  /* TEXT COLORS - Dark Mode */
+  --text-primary: #F1F5F9;
+  --text-secondary: #CBD5E1;
+  --text-tertiary: #94A3B8;
+  --text-quaternary: #64748B;
+  --text-disabled: #475569;
+  --text-inverse: #0F172A;
+  --text-link: #818CF8;
+  --text-link-hover: #A5B4FC;
+
+  /* BORDER COLORS - Dark Mode */
+  --border-primary: #334155;
+  --border-secondary: #475569;
+  --border-focus: #818CF8;
+  --border-error: #FCA5A5;
+  --border-success: #34D399;
+
+  /* CODE SYNTAX - Dark Mode */
+  --code-bg: #1E293B;
+  --code-text: #E2E8F0;
+  --code-keyword: #FCA5A5;
+  --code-string: #6EE7B7;
+  --code-function: #C4B5FD;
+  --code-variable: #67E8F9;
+  --code-number: #FCD34D;
+  --code-comment: #64748B;
+  --code-operator: #94A3B8;
+
+  /* GRADIENTS - Dark Mode */
+  --gradient-hero: linear-gradient(135deg, #1E293B 0%, #334155 50%, #475569 100%);
+
+  /* SHADOWS - Dark Mode (darker) */
+  --shadow-primary-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-primary-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-primary-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+}
+
+/* ===============================================
+   DOCUSAURUS VARIABLE MAPPING
+   Map new colors to Docusaurus variables
+   =============================================== */
+
+:root {
+  /* Primary Color Mapping */
+  --ifm-color-primary: var(--color-primary);
+  --ifm-color-primary-dark: var(--color-primary-dark);
+  --ifm-color-primary-darker: var(--color-primary-darker);
+  --ifm-color-primary-darkest: var(--color-primary-darkest);
+  --ifm-color-primary-light: var(--color-primary-light);
+  --ifm-color-primary-lighter: var(--color-primary-lighter);
+  --ifm-color-primary-lightest: var(--color-primary-lightest);
+
+  /* Secondary Color Mapping */
+  --ifm-color-secondary: var(--color-secondary);
+  --ifm-color-secondary-dark: var(--color-secondary-dark);
+  --ifm-color-secondary-darker: var(--color-secondary-darker);
+  --ifm-color-secondary-darkest: var(--color-secondary-darkest);
+  --ifm-color-secondary-light: var(--color-secondary-light);
+  --ifm-color-secondary-lighter: var(--color-secondary-lighter);
+  --ifm-color-secondary-lightest: var(--color-secondary-lightest);
+
+  /* Semantic Colors */
+  --ifm-color-success: var(--color-success);
+  --ifm-color-info: var(--color-info);
+  --ifm-color-warning: var(--color-warning);
+  --ifm-color-danger: var(--color-danger);
+
+  /* Background Colors */
+  --ifm-background-color: var(--bg-primary);
+  --ifm-background-surface-color: var(--bg-secondary);
+
+  /* Text Colors */
+  --ifm-font-color-base: var(--text-primary);
+  --ifm-font-color-secondary: var(--text-secondary);
+
+  /* Border Colors */
+  --ifm-border-color: var(--border-primary);
+
+  /* Code Colors */
+  --ifm-code-background: var(--code-bg);
+
+  /* Link Colors */
+  --ifm-link-color: var(--text-link);
+  --ifm-link-hover-color: var(--text-link-hover);
+}

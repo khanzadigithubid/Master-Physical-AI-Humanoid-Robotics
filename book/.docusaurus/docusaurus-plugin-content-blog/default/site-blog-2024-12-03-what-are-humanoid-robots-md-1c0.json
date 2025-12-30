@@ -1,0 +1,65 @@
+{
+  "permalink": "/blog/what-are-humanoid-robots",
+  "source": "@site/blog/2024-12-03-what-are-humanoid-robots.md",
+  "title": "What Are Humanoid Robots? Understanding Human-Shaped Machines",
+  "description": "Humanoid robots are machines designed with a body structure resembling the human form, typically featuring a torso, head, two arms, and two legs. This design philosophy stems from a fundamental insight: a world built by and for humans is naturally suited to machines that share human physical characteristics. Understanding humanoid robotics requires examining both the technical challenges these systems present and the reasons researchers pursue this particularly demanding form factor.",
+  "date": "2024-12-03T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Humanoid Robotics",
+      "permalink": "/blog/tags/humanoid-robotics",
+      "description": "Topics about humanoid robots and bipedal systems"
+    },
+    {
+      "inline": false,
+      "label": "Fundamentals",
+      "permalink": "/blog/tags/fundamentals",
+      "description": "Core concepts and foundational knowledge"
+    },
+    {
+      "inline": false,
+      "label": "Research",
+      "permalink": "/blog/tags/research",
+      "description": "Latest research and academic papers"
+    }
+  ],
+  "readingTime": 3.92,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Wazir Ali Khan",
+      "title": "Physical AI & Robotics Researcher",
+      "url": "https://github.com/khanzadiwazirali",
+      "page": {
+        "permalink": "/blog/authors/wazir"
+      },
+      "socials": {
+        "github": "https://github.com/khanzadiwazirali"
+      },
+      "imageURL": "https://github.com/khanzadiwazirali.png",
+      "key": "wazir"
+    }
+  ],
+  "frontMatter": {
+    "slug": "what-are-humanoid-robots",
+    "title": "What Are Humanoid Robots? Understanding Human-Shaped Machines",
+    "authors": [
+      "wazir"
+    ],
+    "tags": [
+      "humanoid-robotics",
+      "fundamentals",
+      "research"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "AI Agents vs Physical AI - Understanding the Key Differences",
+    "permalink": "/blog/ai-agents-vs-physical-ai"
+  },
+  "nextItem": {
+    "title": "Introduction to Physical AI - The Next Frontier in Artificial Intelligence",
+    "permalink": "/blog/introduction-to-physical-ai"
+  }
+}

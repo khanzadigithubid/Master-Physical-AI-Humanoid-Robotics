@@ -1,0 +1,61 @@
+{
+  "permalink": "/blog/introduction-to-physical-ai",
+  "source": "@site/blog/2024-12-01-introduction-to-physical-ai.md",
+  "title": "Introduction to Physical AI - The Next Frontier in Artificial Intelligence",
+  "description": "Physical AI represents a paradigm shift in artificial intelligence research, moving beyond purely digital systems to create intelligent agents that can perceive, reason, and act within the physical world. This emerging field combines advances in machine learning, robotics, sensor technology, and control systems to develop systems capable of meaningful interaction with their environment.",
+  "date": "2024-12-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Physical AI",
+      "permalink": "/blog/tags/physical-ai",
+      "description": "Content related to Physical AI systems and embodied intelligence"
+    },
+    {
+      "inline": false,
+      "label": "Fundamentals",
+      "permalink": "/blog/tags/fundamentals",
+      "description": "Core concepts and foundational knowledge"
+    },
+    {
+      "inline": false,
+      "label": "Research",
+      "permalink": "/blog/tags/research",
+      "description": "Latest research and academic papers"
+    }
+  ],
+  "readingTime": 3.22,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Wazir Ali Khan",
+      "title": "Physical AI & Robotics Researcher",
+      "url": "https://github.com/khanzadiwazirali",
+      "page": {
+        "permalink": "/blog/authors/wazir"
+      },
+      "socials": {
+        "github": "https://github.com/khanzadiwazirali"
+      },
+      "imageURL": "https://github.com/khanzadiwazirali.png",
+      "key": "wazir"
+    }
+  ],
+  "frontMatter": {
+    "slug": "introduction-to-physical-ai",
+    "title": "Introduction to Physical AI - The Next Frontier in Artificial Intelligence",
+    "authors": [
+      "wazir"
+    ],
+    "tags": [
+      "physical-ai",
+      "fundamentals",
+      "research"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "What Are Humanoid Robots? Understanding Human-Shaped Machines",
+    "permalink": "/blog/what-are-humanoid-robots"
+  }
+}

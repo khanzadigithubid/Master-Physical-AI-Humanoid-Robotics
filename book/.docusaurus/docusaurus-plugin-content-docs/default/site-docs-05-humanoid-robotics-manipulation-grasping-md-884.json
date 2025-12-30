@@ -1,0 +1,27 @@
+{
+  "id": "humanoid-robotics/manipulation-grasping",
+  "title": "Manipulation and Grasping",
+  "description": "Introduction",
+  "source": "@site/docs/05-humanoid-robotics/manipulation-grasping.md",
+  "sourceDirName": "05-humanoid-robotics",
+  "slug": "/humanoid-robotics/manipulation-grasping",
+  "permalink": "/docs/humanoid-robotics/manipulation-grasping",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Manipulation and Grasping"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bipedal Locomotion",
+    "permalink": "/docs/humanoid-robotics/bipedal-locomotion"
+  },
+  "next": {
+    "title": "Safety Systems for Physical AI",
+    "permalink": "/docs/deployment-ethics/safety-systems"
+  }
+}
