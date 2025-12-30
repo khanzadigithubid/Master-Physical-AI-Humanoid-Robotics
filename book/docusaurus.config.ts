@@ -60,17 +60,6 @@ const config: Config = {
           remarkPlugins: [require('remark-math')],
           rehypePlugins: [require('rehype-katex')],
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Edit URL removed - not using blog editing
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -96,11 +85,6 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Chapters',
-        },
-        {
-          to: '/blog',
-          label: 'Blog',
-          position: 'left',
         },
         {to: '/signup', label: 'Sign Up', position: 'right', className: 'navbar-signup-btn'},
         {to: '/signin', label: 'Sign In', position: 'right'},
