@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-ai-for-robotics/foundation-models" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Foundation Models for Robotics | Physical AI &amp; Humanoid Robotics</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://khanzadigithubid.github.io/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Foundation Models for Robotics | Physical AI &amp; Humanoid Robotics"><meta data-rh="true" name="description" content="Introduction"><meta data-rh="true" property="og:description" content="Introduction"><link data-rh="true" rel="icon" href="/Master-Physical-AI-Humanoid-Robotics/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://khanzadigithubid.github.io/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models"><link data-rh="true" rel="alternate" href="https://khanzadigithubid.github.io/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models" hreflang="en"><link data-rh="true" rel="alternate" href="https://khanzadigithubid.github.io/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Foundation Models for Robotics","item":"https://khanzadigithubid.github.io/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models"}]}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/Master-Physical-AI-Humanoid-Robotics/assets/css/styles.7e04d39e.css">
+<script src="/Master-Physical-AI-Humanoid-Robotics/assets/js/runtime~main.4cc74e3b.js" defer="defer"></script>
+<script src="/Master-Physical-AI-Humanoid-Robotics/assets/js/main.d475024e.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/Master-Physical-AI-Humanoid-Robotics/"><b class="navbar__title text--truncate">Physical AI Textbook</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/Master-Physical-AI-Humanoid-Robotics/docs/intro">Chapters</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a class="navbar__item navbar__link navbar-signup-btn" href="/Master-Physical-AI-Humanoid-Robotics/signup">Sign Up</a><a class="navbar__item navbar__link" href="/Master-Physical-AI-Humanoid-Robotics/signin">Sign In</a><a href="https://github.com/khanzadigithubid/Master-Physical-AI-Humanoid-Robotics" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/Master-Physical-AI-Humanoid-Robotics/docs/intro"><span title="📚 Welcome" class="linkLabel_WmDU">📚 Welcome</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/Master-Physical-AI-Humanoid-Robotics/docs/introduction/overview"><span title="🤖 Module 1: Introduction to Physical AI" class="categoryLinkLabel_W154">🤖 Module 1: Introduction to Physical AI</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/Master-Physical-AI-Humanoid-Robotics/docs/introduction/overview"><span title="Overview of Physical AI" class="linkLabel_WmDU">Overview of Physical AI</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/Master-Physical-AI-Humanoid-Robotics/docs/introduction/physical-ai-definition"><span title="Physical AI Definition" class="linkLabel_WmDU">Physical AI Definition</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/Master-Physical-AI-Humanoid-Robotics/docs/introduction/curriculum-guide"><span title="Curriculum Guide" class="linkLabel_WmDU">Curriculum Guide</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/Master-Physical-AI-Humanoid-Robotics/docs/introduction/prerequisites"><span title="Prerequisites" class="linkLabel_WmDU">Prerequisites</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/kinematics"><span title="⚙️ Module 2: Robotics Fundamentals" class="categoryLinkLabel_W154">⚙️ Module 2: Robotics Fundamentals</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/computer-vision"><span title="👁️ Module 3: Perception Systems" class="categoryLinkLabel_W154">👁️ Module 3: Perception Systems</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/reinforcement-learning"><span title="🧠 Module 4: AI for Robotics" class="categoryLinkLabel_W154">🧠 Module 4: AI for Robotics</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/reinforcement-learning"><span title="Reinforcement Learning for Robotics" class="linkLabel_WmDU">Reinforcement Learning for Robotics</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models"><span title="Foundation Models for Robotics" class="linkLabel_WmDU">Foundation Models for Robotics</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/bipedal-locomotion"><span title="🚶 Module 5: Humanoid Robotics" class="categoryLinkLabel_W154">🚶 Module 5: Humanoid Robotics</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/Master-Physical-AI-Humanoid-Robotics/docs/deployment-ethics/safety-systems"><span title="🌍 Module 6: Deployment &amp; Ethics" class="categoryLinkLabel_W154">🌍 Module 6: Deployment &amp; Ethics</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/Master-Physical-AI-Humanoid-Robotics/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">🧠 Module 4: AI for Robotics</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Foundation Models for Robotics</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="chapterActionsContainer_nCB_">Loading controls...</div><div class="theme-doc-markdown markdown"><header><h1>Foundation Models for Robotics</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" translate="no">​</a></h2>
+<p>Foundation models—large neural networks pretrained on massive datasets—are revolutionizing robotics by enabling zero-shot generalization and language-conditioned control.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-are-foundation-models">What are Foundation Models?<a href="#what-are-foundation-models" class="hash-link" aria-label="Direct link to What are Foundation Models?" title="Direct link to What are Foundation Models?" translate="no">​</a></h2>
+<p><strong>Definition</strong>: Models trained on diverse data at scale that can adapt to new tasks with minimal finetuning.</p>
+<p><strong>Examples in NLP/Vision</strong>:</p>
+<ul>
+<li class="">GPT-4: 1.7T parameters, trained on internet text</li>
+<li class="">CLIP: Vision-language model, 400M image-text pairs</li>
+<li class="">SAM (Segment Anything): 1B masks, universal segmentation</li>
+</ul>
+<p><strong>Why Robotics Needs Them</strong>:</p>
+<ul>
+<li class="">Traditional RL: Learn each task from scratch</li>
+<li class="">Foundation models: Transfer knowledge across tasks</li>
+<li class="">Enable natural language control</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="rt-1-robotics-transformer-1">RT-1: Robotics Transformer 1<a href="#rt-1-robotics-transformer-1" class="hash-link" aria-label="Direct link to RT-1: Robotics Transformer 1" title="Direct link to RT-1: Robotics Transformer 1" translate="no">​</a></h2>
+<p><strong>Paper</strong>: &quot;RT-1: Robotics Transformer for Real-World Control at Scale&quot; (Google, 2022)</p>
+<p><strong>Architecture</strong>:</p>
+<ul>
+<li class="">Transformer encoder-decoder</li>
+<li class="">Input: RGB images + language instruction</li>
+<li class="">Output: Robot actions (7-DOF end-effector pose)</li>
+</ul>
+<p><strong>Training Data</strong>:</p>
+<ul>
+<li class="">130k robot trajectories</li>
+<li class="">700 tasks (pick, place, open drawer, etc.)</li>
+</ul>
+<p><strong>Results</strong>:</p>
+<ul>
+<li class="">97% success on training tasks</li>
+<li class="">76% on novel instructions</li>
+<li class="">Zero-shot generalization to new objects</li>
+</ul>
+<p><strong>Key Insight</strong>: Transformers can model robot behavior as sequence prediction.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="rt-2-vision-language-action-model">RT-2: Vision-Language-Action Model<a href="#rt-2-vision-language-action-model" class="hash-link" aria-label="Direct link to RT-2: Vision-Language-Action Model" title="Direct link to RT-2: Vision-Language-Action Model" translate="no">​</a></h2>
+<p><strong>Paper</strong>: &quot;RT-2: Vision-Language-Action Models&quot; (Google DeepMind, 2023)</p>
+<p><strong>Innovation</strong>: Pretrain on web data, finetune on robot data.</p>
+<p><strong>Architecture</strong>:</p>
+<ul>
+<li class="">Start with PaLM-E (vision-language model)</li>
+<li class="">Add action prediction head</li>
+<li class="">Finetune on robot demos</li>
+</ul>
+<p><strong>Capabilities</strong>:</p>
+<ul>
+<li class="">Understands abstract commands (&quot;throw trash in the recycling bin&quot;)</li>
+<li class="">Reasons about object affordances</li>
+<li class="">Chains multiple sub-tasks</li>
+</ul>
+<p><strong>Results</strong>:</p>
+<ul>
+<li class="">62% improvement over RT-1 on novel tasks</li>
+<li class="">Understands 6000+ concepts from pretraining</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="vima-multimodal-prompting">VIMA: Multimodal Prompting<a href="#vima-multimodal-prompting" class="hash-link" aria-label="Direct link to VIMA: Multimodal Prompting" title="Direct link to VIMA: Multimodal Prompting" translate="no">​</a></h2>
+<p><strong>Paper</strong>: &quot;VIMA: General Robot Manipulation with Multimodal Prompts&quot; (Stanford, 2023)</p>
+<p><strong>Key Idea</strong>: Condition on visual prompts, not just language.</p>
+<p><strong>Prompt Types</strong>:</p>
+<ol>
+<li class=""><strong>Text</strong>: &quot;Pick up the red block&quot;</li>
+<li class=""><strong>Image</strong>: Show target configuration</li>
+<li class=""><strong>Video</strong>: Demonstrate desired behavior</li>
+</ol>
+<p><strong>Architecture</strong>:</p>
+<ul>
+<li class="">Transformer with cross-attention to prompts</li>
+<li class="">Trained on 600k simulated trajectories</li>
+<li class="">200M parameters</li>
+</ul>
+<p><strong>Results</strong>:</p>
+<ul>
+<li class="">90%+ success on novel object combinations</li>
+<li class="">Zero-shot transfer to real robots</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="open-x-embodiment-universal-robot-data">Open X-Embodiment: Universal Robot Data<a href="#open-x-embodiment-universal-robot-data" class="hash-link" aria-label="Direct link to Open X-Embodiment: Universal Robot Data" title="Direct link to Open X-Embodiment: Universal Robot Data" translate="no">​</a></h2>
+<p><strong>Project</strong>: Collaboration of 20+ research labs (2023)</p>
+<p><strong>Goal</strong>: Create ImageNet for robotics—large-scale, diverse robot data.</p>
+<p><strong>Dataset</strong>:</p>
+<ul>
+<li class="">1M+ robot trajectories</li>
+<li class="">20 different robot embodiments</li>
+<li class="">150+ tasks</li>
+</ul>
+<p><strong>Benefits</strong>:</p>
+<ul>
+<li class="">Foundation models pretrain on Open X-Embodiment</li>
+<li class="">Transfer across different robot morphologies</li>
+<li class="">Accelerates research (no need to collect own data)</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges-for-robot-foundation-models">Challenges for Robot Foundation Models<a href="#challenges-for-robot-foundation-models" class="hash-link" aria-label="Direct link to Challenges for Robot Foundation Models" title="Direct link to Challenges for Robot Foundation Models" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-embodiment-gap">1. Embodiment Gap<a href="#1-embodiment-gap" class="hash-link" aria-label="Direct link to 1. Embodiment Gap" title="Direct link to 1. Embodiment Gap" translate="no">​</a></h3>
+<p><strong>Problem</strong>: Models trained on one robot don&#x27;t transfer to different morphologies.</p>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li class="">Learn embodiment-agnostic representations</li>
+<li class="">Multi-robot training datasets</li>
+<li class="">Modular architectures (separate perception and control)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-data-scarcity">2. Data Scarcity<a href="#2-data-scarcity" class="hash-link" aria-label="Direct link to 2. Data Scarcity" title="Direct link to 2. Data Scarcity" translate="no">​</a></h3>
+<p><strong>Problem</strong>: Robotics has 10,000x less data than NLP/vision.</p>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li class="">Leverage simulation (Isaac Sim, MuJoCo)</li>
+<li class="">Self-supervised learning from robot play</li>
+<li class="">Teleoperation for efficient data collection</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-action-space-alignment">3. Action Space Alignment<a href="#3-action-space-alignment" class="hash-link" aria-label="Direct link to 3. Action Space Alignment" title="Direct link to 3. Action Space Alignment" translate="no">​</a></h3>
+<p><strong>Problem</strong>: Different robots have different action spaces.</p>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li class="">Normalize to end-effector pose (x, y, z, roll, pitch, yaw)</li>
+<li class="">Learn shared action embeddings</li>
+<li class="">Hierarchical policies (high-level commands → low-level control)</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="future-directions">Future Directions<a href="#future-directions" class="hash-link" aria-label="Direct link to Future Directions" title="Direct link to Future Directions" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="continual-learning">Continual Learning<a href="#continual-learning" class="hash-link" aria-label="Direct link to Continual Learning" title="Direct link to Continual Learning" translate="no">​</a></h3>
+<p>Robots that improve from deployment experience:</p>
+<ul>
+<li class="">Online adaptation to new environments</li>
+<li class="">Never forget previously learned skills</li>
+<li class="">Self-supervised learning from robot play</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="human-robot-collaboration">Human-Robot Collaboration<a href="#human-robot-collaboration" class="hash-link" aria-label="Direct link to Human-Robot Collaboration" title="Direct link to Human-Robot Collaboration" translate="no">​</a></h3>
+<p>Foundation models enable natural interaction:</p>
+<ul>
+<li class="">Understand pointing gestures</li>
+<li class="">Respond to voice commands</li>
+<li class="">Predict human intent</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="edge-deployment">Edge Deployment<a href="#edge-deployment" class="hash-link" aria-label="Direct link to Edge Deployment" title="Direct link to Edge Deployment" translate="no">​</a></h3>
+<p>Run foundation models on-robot:</p>
+<ul>
+<li class="">Quantization (16-bit → 4-bit)</li>
+<li class="">Model distillation (1B params → 100M params)</li>
+<li class="">Specialized hardware (NVIDIA Orin, Google TPU)</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="summary">Summary<a href="#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary" translate="no">​</a></h2>
+<p>Foundation models are transforming robotics from task-specific systems to general-purpose assistants.</p>
+<p><strong>Key Models</strong>:</p>
+<ul>
+<li class=""><strong>RT-1/RT-2</strong>: Transformer-based robot control</li>
+<li class=""><strong>VIMA</strong>: Multimodal prompting for manipulation</li>
+<li class=""><strong>Open X-Embodiment</strong>: Universal robot dataset</li>
+</ul>
+<p><strong>Impact</strong>: Enable zero-shot generalization, language control, and knowledge transfer across tasks.</p>
+<hr>
+<p><strong>Next Chapter</strong>: World Models for Physical AI</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/reinforcement-learning"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Reinforcement Learning for Robotics</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/bipedal-locomotion"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Bipedal Locomotion</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction" class="table-of-contents__link toc-highlight">Introduction</a></li><li><a href="#what-are-foundation-models" class="table-of-contents__link toc-highlight">What are Foundation Models?</a></li><li><a href="#rt-1-robotics-transformer-1" class="table-of-contents__link toc-highlight">RT-1: Robotics Transformer 1</a></li><li><a href="#rt-2-vision-language-action-model" class="table-of-contents__link toc-highlight">RT-2: Vision-Language-Action Model</a></li><li><a href="#vima-multimodal-prompting" class="table-of-contents__link toc-highlight">VIMA: Multimodal Prompting</a></li><li><a href="#open-x-embodiment-universal-robot-data" class="table-of-contents__link toc-highlight">Open X-Embodiment: Universal Robot Data</a></li><li><a href="#challenges-for-robot-foundation-models" class="table-of-contents__link toc-highlight">Challenges for Robot Foundation Models</a><ul><li><a href="#1-embodiment-gap" class="table-of-contents__link toc-highlight">1. Embodiment Gap</a></li><li><a href="#2-data-scarcity" class="table-of-contents__link toc-highlight">2. Data Scarcity</a></li><li><a href="#3-action-space-alignment" class="table-of-contents__link toc-highlight">3. Action Space Alignment</a></li></ul></li><li><a href="#future-directions" class="table-of-contents__link toc-highlight">Future Directions</a><ul><li><a href="#continual-learning" class="table-of-contents__link toc-highlight">Continual Learning</a></li><li><a href="#human-robot-collaboration" class="table-of-contents__link toc-highlight">Human-Robot Collaboration</a></li><li><a href="#edge-deployment" class="table-of-contents__link toc-highlight">Edge Deployment</a></li></ul></li><li><a href="#summary" class="table-of-contents__link toc-highlight">Summary</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer_QKCd"><div class="container"><div class="footerContent_OrlZ"><div class="footerColumn_n88d"><h3 class="footerBrand_fk4F">🤖 Physical AI Textbook</h3><p class="footerDescription_ivvq">Master Physical AI and Humanoid Robotics with our comprehensive, interactive learning platform. From fundamentals to deployment.</p><div class="footerStats_F12t"><div class="stat_yhsY"><span class="statNumber_rxOU">24</span><span class="statLabel_hkpz">Chapters</span></div><div class="stat_yhsY"><span class="statNumber_rxOU">6</span><span class="statLabel_hkpz">Modules</span></div><div class="stat_yhsY"><span class="statNumber_rxOU">100+</span><span class="statLabel_hkpz">Hours</span></div></div></div><div class="footerColumn_n88d"><h4 class="footerTitle_Gwyz">Quick Links</h4><ul class="footerLinks_iU7d"><li><a class="footerLink_XVgK" href="/Master-Physical-AI-Humanoid-Robotics/docs/intro">→ <!-- -->Documentation</a></li><li><a class="footerLink_XVgK" href="/Master-Physical-AI-Humanoid-Robotics/docs/introduction/overview">→ <!-- -->Curriculum</a></li><li><a class="footerLink_XVgK" href="/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/actuators-sensors">→ <!-- -->Hardware Setup</a></li><li><a class="footerLink_XVgK" href="/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/bipedal-locomotion">→ <!-- -->Capstone Projects</a></li></ul></div><div class="footerColumn_n88d"><h4 class="footerTitle_Gwyz">Resources</h4><ul class="footerLinks_iU7d"><li><a class="footerLink_XVgK" href="/Master-Physical-AI-Humanoid-Robotics/signup">→ <!-- -->Sign Up</a></li><li><a class="footerLink_XVgK" href="/Master-Physical-AI-Humanoid-Robotics/signin">→ <!-- -->Sign In</a></li><li><a class="footerLink_XVgK" href="/Master-Physical-AI-Humanoid-Robotics/docs/intro">→ <!-- -->About Us</a></li><li><a href="https://github.com/khanzadiwazirali/physical-ai-textbook/issues" target="_blank" rel="noopener noreferrer" class="footerLink_XVgK">→ <!-- -->Contact</a></li></ul></div><div class="footerColumn_n88d"><h4 class="footerTitle_Gwyz">Connect With Us</h4><p class="connectDescription_DlSq">Join our community and stay updated with the latest in Physical AI</p><div class="socialButtons_fiNn"><a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="socialButton_E3EJ" style="--social-color:#25D366" title="Join our student community"><span class="socialIcon_mk6g">💬</span><span class="socialName__Fab">WhatsApp Community</span></a><a href="https://zoom.us/" target="_blank" rel="noopener noreferrer" class="socialButton_E3EJ" style="--social-color:#2D8CFF" title="Weekly live Q&amp;A sessions"><span class="socialIcon_mk6g">📹</span><span class="socialName__Fab">Zoom Sessions</span></a><a href="https://github.com/khanzadiwazirali/physical-ai-textbook" target="_blank" rel="noopener noreferrer" class="socialButton_E3EJ" style="--social-color:#24292F" title="Contribute &amp; star the project"><span class="socialIcon_mk6g">⚡</span><span class="socialName__Fab">GitHub Repository</span></a></div></div></div><div class="footerBottom_azUE"><div class="footerBottomContent_ZpOC"><p class="copyright_U1Sp">© <!-- -->2025<!-- --> Physical AI Textbook Platform. Built with ❤️ for robotics education.</p><div class="footerMeta_QvrW"><a class="metaLink_KgDt" href="/Master-Physical-AI-Humanoid-Robotics/docs/intro">Privacy</a><span class="separator_wrML">•</span><a class="metaLink_KgDt" href="/Master-Physical-AI-Humanoid-Robotics/docs/intro">Terms</a><span class="separator_wrML">•</span><a href="https://github.com/khanzadiwazirali/physical-ai-textbook" target="_blank" rel="noopener noreferrer" class="metaLink_KgDt">Open Source</a></div></div></div></div></footer><button class="chatbotButton_HNTG" aria-label="Open chatbot" title="Ask questions about Physical AI"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon_QjW2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path><path d="M9 10h6M9 14h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg></button></div>
+</body>
+</html>

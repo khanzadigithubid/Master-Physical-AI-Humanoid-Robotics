@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Palette - Physical AI Textbook</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      padding: 2rem;
+      background: #F8FAFC;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      padding: 3rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      color: #0F172A;
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+    }
+
+    .subtitle {
+      color: #64748B;
+      margin-bottom: 3rem;
+      font-size: 1.2rem;
+    }
+
+    .color-group {
+      margin-bottom: 3rem;
+    }
+
+    .group-title {
+      color: #1E293B;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .group-description {
+      color: #64748B;
+      margin-bottom: 1.5rem;
+    }
+
+    .swatches {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+
+    .swatch {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .swatch:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .swatch-color {
+      height: 120px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .swatch-color::after {
+      content: 'Click to copy';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    .swatch-color:hover::after {
+      opacity: 1;
+    }
+
+    .swatch-info {
+      padding: 1rem;
+      background: white;
+    }
+
+    .swatch-name {
+      font-weight: 600;
+      color: #334155;
+      margin-bottom: 0.25rem;
+    }
+
+    .swatch-hex {
+      font-family: 'Courier New', monospace;
+      color: #64748B;
+      font-size: 0.9rem;
+    }
+
+    .copied-toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: #10B981;
+      color: white;
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      font-weight: 600;
+    }
+
+    .copied-toast.show {
+      opacity: 1;
+    }
+
+    .mode-toggle {
+      position: fixed;
+      top: 2rem;
+      right: 2rem;
+      background: white;
+      border: 2px solid #E2E8F0;
+      border-radius: 12px;
+      padding: 0.75rem 1.5rem;
+      cursor: pointer;
+      font-weight: 600;
+      color: #4F46E5;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: all 0.2s ease;
+    }
+
+    .mode-toggle:hover {
+      background: #4F46E5;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    body.dark-mode {
+      background: #0F172A;
+    }
+
+    body.dark-mode .container {
+      background: #1E293B;
+    }
+
+    body.dark-mode h1 {
+      color: #F1F5F9;
+    }
+
+    body.dark-mode .subtitle,
+    body.dark-mode .group-description {
+      color: #94A3B8;
+    }
+
+    body.dark-mode .group-title {
+      color: #E2E8F0;
+    }
+
+    body.dark-mode .swatch-info {
+      background: #334155;
+    }
+
+    body.dark-mode .swatch-name {
+      color: #E2E8F0;
+    }
+
+    body.dark-mode .swatch-hex {
+      color: #94A3B8;
+    }
+
+    body.dark-mode .mode-toggle {
+      background: #334155;
+      border-color: #475569;
+      color: #818CF8;
+    }
+
+    body.dark-mode .mode-toggle:hover {
+      background: #818CF8;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <button class="mode-toggle" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+
+  <div class="container">
+    <h1>🎨 Professional Color Palette</h1>
+    <p class="subtitle">Physical AI & Humanoid Robotics Textbook</p>
+
+    <!-- PRIMARY -->
+    <div class="color-group">
+      <h2 class="group-title">🟣 Primary - Deep Indigo</h2>
+      <p class="group-description">Authority & Intelligence • Used for main brand, buttons, links</p>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background: #4F46E5;" onclick="copyColor('#4F46E5')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Base</div>
+            <div class="swatch-hex">#4F46E5</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #4338CA;" onclick="copyColor('#4338CA')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Dark</div>
+            <div class="swatch-hex">#4338CA</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #3730A3;" onclick="copyColor('#3730A3')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Darker</div>
+            <div class="swatch-hex">#3730A3</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #6366F1;" onclick="copyColor('#6366F1')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Light</div>
+            <div class="swatch-hex">#6366F1</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #818CF8;" onclick="copyColor('#818CF8')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Lighter</div>
+            <div class="swatch-hex">#818CF8</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #A5B4FC;" onclick="copyColor('#A5B4FC')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Lightest</div>
+            <div class="swatch-hex">#A5B4FC</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECONDARY -->
+    <div class="color-group">
+      <h2 class="group-title">🟢 Secondary - Emerald Green</h2>
+      <p class="group-description">Success & Growth • Used for success states, completed tasks</p>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background: #10B981;" onclick="copyColor('#10B981')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Base</div>
+            <div class="swatch-hex">#10B981</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #059669;" onclick="copyColor('#059669')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Dark</div>
+            <div class="swatch-hex">#059669</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #047857;" onclick="copyColor('#047857')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Darker</div>
+            <div class="swatch-hex">#047857</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #34D399;" onclick="copyColor('#34D399')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Light</div>
+            <div class="swatch-hex">#34D399</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #6EE7B7;" onclick="copyColor('#6EE7B7')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Lighter</div>
+            <div class="swatch-hex">#6EE7B7</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #A7F3D0;" onclick="copyColor('#A7F3D0')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Lightest</div>
+            <div class="swatch-hex">#A7F3D0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACCENT -->
+    <div class="color-group">
+      <h2 class="group-title">🔵 Accent - Vivid Cyan</h2>
+      <p class="group-description">Energy & Innovation • Used for CTAs, highlights, special features</p>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background: #06B6D4;" onclick="copyColor('#06B6D4')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Base</div>
+            <div class="swatch-hex">#06B6D4</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #0891B2;" onclick="copyColor('#0891B2')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Dark</div>
+            <div class="swatch-hex">#0891B2</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #0E7490;" onclick="copyColor('#0E7490')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Darker</div>
+            <div class="swatch-hex">#0E7490</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #22D3EE;" onclick="copyColor('#22D3EE')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Light</div>
+            <div class="swatch-hex">#22D3EE</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #67E8F9;" onclick="copyColor('#67E8F9')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Lighter</div>
+            <div class="swatch-hex">#67E8F9</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #A5F3FC;" onclick="copyColor('#A5F3FC')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Lightest</div>
+            <div class="swatch-hex">#A5F3FC</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEMANTIC -->
+    <div class="color-group">
+      <h2 class="group-title">🎯 Semantic Colors</h2>
+      <p class="group-description">Warning, Danger, Info • Used for alerts and notifications</p>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background: #F59E0B;" onclick="copyColor('#F59E0B')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Warning</div>
+            <div class="swatch-hex">#F59E0B</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #EF4444;" onclick="copyColor('#EF4444')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Danger</div>
+            <div class="swatch-hex">#EF4444</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #8B5CF6;" onclick="copyColor('#8B5CF6')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Violet</div>
+            <div class="swatch-hex">#8B5CF6</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #EC4899;" onclick="copyColor('#EC4899')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Pink</div>
+            <div class="swatch-hex">#EC4899</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEUTRALS -->
+    <div class="color-group">
+      <h2 class="group-title">⚪ Neutrals - Slate Gray</h2>
+      <p class="group-description">Backgrounds & Text • Used for surfaces, text, borders</p>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background: #F8FAFC;" onclick="copyColor('#F8FAFC')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">50</div>
+            <div class="swatch-hex">#F8FAFC</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #F1F5F9;" onclick="copyColor('#F1F5F9')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">100</div>
+            <div class="swatch-hex">#F1F5F9</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #E2E8F0;" onclick="copyColor('#E2E8F0')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">200</div>
+            <div class="swatch-hex">#E2E8F0</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #CBD5E1;" onclick="copyColor('#CBD5E1')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">300</div>
+            <div class="swatch-hex">#CBD5E1</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #94A3B8;" onclick="copyColor('#94A3B8')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">400</div>
+            <div class="swatch-hex">#94A3B8</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #64748B;" onclick="copyColor('#64748B')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">500</div>
+            <div class="swatch-hex">#64748B</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #475569;" onclick="copyColor('#475569')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">600</div>
+            <div class="swatch-hex">#475569</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #334155;" onclick="copyColor('#334155')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">700</div>
+            <div class="swatch-hex">#334155</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #1E293B;" onclick="copyColor('#1E293B')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">800</div>
+            <div class="swatch-hex">#1E293B</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #0F172A;" onclick="copyColor('#0F172A')"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">900</div>
+            <div class="swatch-hex">#0F172A</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copied-toast" id="toast">Copied to clipboard! ✓</div>
+
+  <script>
+    function copyColor(hex) {
+      navigator.clipboard.writeText(hex).then(() => {
+        const toast = document.getElementById('toast');
+        toast.classList.add('show');
+        setTimeout(() => {
+          toast.classList.remove('show');
+        }, 2000);
+      });
+    }
+
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
