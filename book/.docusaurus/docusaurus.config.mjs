@@ -32,7 +32,7 @@ export default {
     "experimental_router": "browser"
   },
   "url": "https://khanzadigithubid.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/Master-Physical-AI-Humanoid-Robotics/",
   "organizationName": "khanzadigithubid",
   "projectName": "Master-Physical-AI-Humanoid-Robotics",
   "onBrokenLinks": "throw",
@@ -65,19 +65,6 @@ export default {
             null
           ]
         },
-        "blog": {
-          "showReadingTime": true,
-          "feedOptions": {
-            "type": [
-              "rss",
-              "atom"
-            ],
-            "xslt": true
-          },
-          "onInlineTags": "warn",
-          "onInlineAuthors": "warn",
-          "onUntruncatedBlogPosts": "warn"
-        },
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -99,11 +86,6 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Chapters"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
         },
         {
           "to": "/signup",

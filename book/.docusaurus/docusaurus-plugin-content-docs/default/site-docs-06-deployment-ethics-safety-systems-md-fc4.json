@@ -5,7 +5,7 @@
   "source": "@site/docs/06-deployment-ethics/safety-systems.md",
   "sourceDirName": "06-deployment-ethics",
   "slug": "/deployment-ethics/safety-systems",
-  "permalink": "/docs/deployment-ethics/safety-systems",
+  "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/deployment-ethics/safety-systems",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Manipulation and Grasping",
-    "permalink": "/docs/humanoid-robotics/manipulation-grasping"
+    "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/manipulation-grasping"
   }
 }

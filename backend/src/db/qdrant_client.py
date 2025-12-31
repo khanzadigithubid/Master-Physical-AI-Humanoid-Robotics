@@ -8,6 +8,7 @@ from qdrant_client import AsyncQdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, FieldCondition, MatchValue
 from typing import List, Dict, Any, Optional
 import structlog
+import certifi
 
 from src.config import settings
 
@@ -18,10 +19,12 @@ class QdrantService:
     """Service for interacting with Qdrant Cloud."""
 
     def __init__(self):
-        """Initialize Qdrant client."""
+        """Initialize Qdrant client with certifi SSL verification."""
         self.client = AsyncQdrantClient(
             url=settings.QDRANT_URL,
             api_key=settings.QDRANT_API_KEY,
+            https=True,
+            verify=certifi.where()
         )
         self.collection_name = settings.QDRANT_COLLECTION_NAME
 

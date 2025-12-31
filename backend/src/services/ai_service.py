@@ -81,6 +81,7 @@ Personalized Content:"""
     async def translate_to_urdu(self, content: str) -> str:
         """
         Translate markdown content to Urdu while preserving technical terms.
+        Uses Claude as primary, falls back to Gemini if Claude key is missing.
         """
         prompt = f"""Translate the following Physical AI and Robotics textbook content to Urdu.
 
@@ -96,27 +97,51 @@ Content to translate:
 
 Translated Content (Urdu):"""
 
+        # Check if we have a valid Anthropic API key (not a placeholder)
+        anthropic_key = settings.ANTHROPIC_API_KEY
+        has_valid_anthropic_key = anthropic_key and not anthropic_key.startswith("sk-ant-placeholder")
+
         try:
-            # Using Claude for better multilingual/translation capabilities
-            # Wrap in wait_for for timeout
-            message = await asyncio.wait_for(
-                anthropic_client.messages.create(
-                    model=settings.CLAUDE_MODEL,
-                    max_tokens=4000,
-                    temperature=0,
-                    system="You are a professional Urdu translator specializing in technical robotics scientific literature.",
-                    messages=[
-                        {"role": "user", "content": prompt}
-                    ]
-                ),
-                timeout=20.0
-            )
-            return message.content[0].text
+            if has_valid_anthropic_key:
+                # Use Claude for better translation
+                message = await asyncio.wait_for(
+                    anthropic_client.messages.create(
+                        model=settings.CLAUDE_MODEL,
+                        max_tokens=4000,
+                        temperature=0,
+                        system="You are a professional Urdu translator specializing in technical robotics scientific literature.",
+                        messages=[
+                            {"role": "user", "content": prompt}
+                        ]
+                    ),
+                    timeout=20.0
+                )
+                return message.content[0].text
+            else:
+                # Fallback to Gemini
+                logger.info("Using Gemini fallback for Urdu translation")
+                result = await gemini_service.generate_content(
+                    prompt=prompt,
+                    system_instruction="You are a professional Urdu translator specializing in technical robotics scientific literature. Translate to formal academic Urdu while keeping technical terms in English."
+                )
+                return result
+
         except asyncio.TimeoutError:
             logger.error("Translation timed out")
             return "Error: Translation request timed out."
         except Exception as e:
             logger.error("Translation failed", error=str(e))
+            # Try fallback before giving up
+            if has_valid_anthropic_key:
+                try:
+                    logger.info("Attempting Gemini fallback after Claude failure")
+                    result = await gemini_service.generate_content(
+                        prompt=prompt,
+                        system_instruction="You are a professional Urdu translator specializing in technical robotics scientific literature."
+                    )
+                    return result
+                except Exception as fallback_error:
+                    logger.error("Fallback also failed", error=str(fallback_error))
             return f"Error during translation: {str(e)}"
 
 ai_service = AIService()

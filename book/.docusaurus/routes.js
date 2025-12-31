@@ -3,142 +3,177 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/index-professional',
-    component: ComponentCreator('/index-professional', '2bf'),
+    path: '/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug', '213'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
+    path: '/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/config',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/config', '3f5'),
     exact: true
   },
   {
-    path: '/signin',
-    component: ComponentCreator('/signin', 'ba0'),
+    path: '/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/content',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/content', '0b9'),
     exact: true
   },
   {
-    path: '/signup',
-    component: ComponentCreator('/signup', '312'),
+    path: '/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/globalData',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/globalData', 'af8'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '8d2'),
+    path: '/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/metadata',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/metadata', 'ac5'),
+    exact: true
+  },
+  {
+    path: '/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/registry',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/registry', '4f2'),
+    exact: true
+  },
+  {
+    path: '/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/routes',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/routes', '20e'),
+    exact: true
+  },
+  {
+    path: '/Master-Physical-AI-Humanoid-Robotics/index-professional',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/index-professional', 'd34'),
+    exact: true
+  },
+  {
+    path: '/Master-Physical-AI-Humanoid-Robotics/markdown-page',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/markdown-page', 'eae'),
+    exact: true
+  },
+  {
+    path: '/Master-Physical-AI-Humanoid-Robotics/signin',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/signin', 'd0e'),
+    exact: true
+  },
+  {
+    path: '/Master-Physical-AI-Humanoid-Robotics/signup',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/signup', '6de'),
+    exact: true
+  },
+  {
+    path: '/Master-Physical-AI-Humanoid-Robotics/docs',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs', 'b2e'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '96d'),
+        path: '/Master-Physical-AI-Humanoid-Robotics/docs',
+        component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs', 'bc2'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'e11'),
+            path: '/Master-Physical-AI-Humanoid-Robotics/docs',
+            component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs', '83d'),
             routes: [
               {
-                path: '/docs/ai-for-robotics/foundation-models',
-                component: ComponentCreator('/docs/ai-for-robotics/foundation-models', '4ae'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models', '016'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/ai-for-robotics/reinforcement-learning',
-                component: ComponentCreator('/docs/ai-for-robotics/reinforcement-learning', 'eae'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/reinforcement-learning',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/reinforcement-learning', 'ca8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/deployment-ethics/safety-systems',
-                component: ComponentCreator('/docs/deployment-ethics/safety-systems', 'd58'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/deployment-ethics/safety-systems',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/deployment-ethics/safety-systems', 'ea1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/humanoid-robotics/bipedal-locomotion',
-                component: ComponentCreator('/docs/humanoid-robotics/bipedal-locomotion', '20d'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/bipedal-locomotion',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/bipedal-locomotion', 'c84'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/humanoid-robotics/manipulation-grasping',
-                component: ComponentCreator('/docs/humanoid-robotics/manipulation-grasping', 'e8d'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/manipulation-grasping',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/manipulation-grasping', 'e8f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/intro',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/intro', 'bd3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/introduction/curriculum-guide',
-                component: ComponentCreator('/docs/introduction/curriculum-guide', '60d'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/introduction/curriculum-guide',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/introduction/curriculum-guide', 'ff3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/introduction/overview',
-                component: ComponentCreator('/docs/introduction/overview', '48e'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/introduction/overview',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/introduction/overview', '2d4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/introduction/physical-ai-definition',
-                component: ComponentCreator('/docs/introduction/physical-ai-definition', '6c0'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/introduction/physical-ai-definition',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/introduction/physical-ai-definition', '7e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/introduction/prerequisites',
-                component: ComponentCreator('/docs/introduction/prerequisites', '355'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/introduction/prerequisites',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/introduction/prerequisites', 'a5b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/perception-systems/computer-vision',
-                component: ComponentCreator('/docs/perception-systems/computer-vision', '769'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/computer-vision',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/computer-vision', 'dea'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/perception-systems/lidar-sensors',
-                component: ComponentCreator('/docs/perception-systems/lidar-sensors', '481'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/lidar-sensors',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/lidar-sensors', 'e05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/perception-systems/sensor-fusion',
-                component: ComponentCreator('/docs/perception-systems/sensor-fusion', '6af'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/sensor-fusion',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/sensor-fusion', 'd9d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/perception-systems/slam',
-                component: ComponentCreator('/docs/perception-systems/slam', 'd8a'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/slam',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/slam', '93c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/robotics-fundamentals/actuators-sensors',
-                component: ComponentCreator('/docs/robotics-fundamentals/actuators-sensors', 'd25'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/actuators-sensors',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/actuators-sensors', '59e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/robotics-fundamentals/control-theory',
-                component: ComponentCreator('/docs/robotics-fundamentals/control-theory', '309'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/control-theory',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/control-theory', '400'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/robotics-fundamentals/dynamics',
-                component: ComponentCreator('/docs/robotics-fundamentals/dynamics', '02b'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/dynamics',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/dynamics', '5aa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/robotics-fundamentals/kinematics',
-                component: ComponentCreator('/docs/robotics-fundamentals/kinematics', 'add'),
+                path: '/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/kinematics',
+                component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/kinematics', '391'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -149,8 +184,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e5f'),
+    path: '/Master-Physical-AI-Humanoid-Robotics/',
+    component: ComponentCreator('/Master-Physical-AI-Humanoid-Robotics/', '6e4'),
     exact: true
   },
   {

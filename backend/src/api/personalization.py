@@ -39,6 +39,7 @@ class PersonalizeResponse(BaseModel):
     adaptations: List[Adaptation]
     software_level: str
     hardware_level: str
+    error: str | None = None
 
 
 @router.post("", response_model=PersonalizeResponse)
@@ -57,23 +58,49 @@ async def personalize_content(
         hardware=current_user.hardware_background
     )
 
-    result = await ai_service.personalize_chapter(
-        original_markdown=request.original_markdown,
-        software_background=current_user.software_background,
-        hardware_background=current_user.hardware_background
-    )
+    try:
+        result = await ai_service.personalize_chapter(
+            original_markdown=request.original_markdown,
+            software_background=current_user.software_background,
+            hardware_background=current_user.hardware_background
+        )
 
-    return PersonalizeResponse(
-        chapter_id=request.chapter_id,
-        content=result["content"],
-        summary=result["summary"],
-        adaptations=[
-            Adaptation(
-                reason=f"Adapted for {current_user.software_background} software and {current_user.hardware_background} hardware background.",
-                content_preview=result["content"][:100] + "...",
-                type="explanation"
+        # Check if personalization actually happened (not fallback)
+        if "adaptation error" in result["summary"].lower() or result["content"] == request.original_markdown:
+            return PersonalizeResponse(
+                chapter_id=request.chapter_id,
+                content=result["content"],
+                summary="Personalization service unavailable - showing original content",
+                adaptations=[],
+                software_level=current_user.software_background,
+                hardware_level=current_user.hardware_background,
+                error="AI personalization service temporarily unavailable"
             )
-        ],
-        software_level=current_user.software_background,
-        hardware_level=current_user.hardware_background
-    )
+
+        return PersonalizeResponse(
+            chapter_id=request.chapter_id,
+            content=result["content"],
+            summary=result["summary"],
+            adaptations=[
+                Adaptation(
+                    reason=f"Adapted for {current_user.software_background} software and {current_user.hardware_background} hardware background.",
+                    content_preview=result["content"][:100] + "...",
+                    type="explanation"
+                )
+            ],
+            software_level=current_user.software_background,
+            hardware_level=current_user.hardware_background
+        )
+
+    except Exception as e:
+        logger.error("Personalization endpoint error", error=str(e))
+        # Return original content with clear error instead of failing
+        return PersonalizeResponse(
+            chapter_id=request.chapter_id,
+            content=request.original_markdown,
+            summary="Original content (personalization failed)",
+            adaptations=[],
+            software_level=current_user.software_background,
+            hardware_level=current_user.hardware_background,
+            error=str(e)
+        )

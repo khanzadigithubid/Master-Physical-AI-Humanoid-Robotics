@@ -1,122 +1,165 @@
 {
-  "/index-professional-2bf": {
-    "__comp": "e9ad20c6",
+  "/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug-213": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
-    },
-    "config": "5e9f5e1a"
-  },
-  "/markdown-page-3d7": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "393be207"
-  },
-  "/signin-ba0": {
-    "__comp": "6f7d680a",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "config": "5e9f5e1a"
-  },
-  "/signup-312": {
-    "__comp": "8d9bf57a",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "config": "5e9f5e1a"
-  },
-  "/docs-8d2": {
-    "__comp": "5e95c892",
-    "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-docusaurus-debugb-38-099"
     }
   },
-  "/docs-96d": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
-  },
-  "/docs-e11": {
-    "__comp": "a94703ab"
-  },
-  "/docs/ai-for-robotics/foundation-models-4ae": {
-    "__comp": "17896441",
-    "content": "dcbaaba1"
-  },
-  "/docs/ai-for-robotics/reinforcement-learning-eae": {
-    "__comp": "17896441",
-    "content": "cb028983"
-  },
-  "/docs/deployment-ethics/safety-systems-d58": {
-    "__comp": "17896441",
-    "content": "fc4cd291"
-  },
-  "/docs/humanoid-robotics/bipedal-locomotion-20d": {
-    "__comp": "17896441",
-    "content": "27ad188d"
-  },
-  "/docs/humanoid-robotics/manipulation-grasping-e8d": {
-    "__comp": "17896441",
-    "content": "884b0d5e"
-  },
-  "/docs/intro-61d": {
-    "__comp": "17896441",
-    "content": "0e384e19"
-  },
-  "/docs/introduction/curriculum-guide-60d": {
-    "__comp": "17896441",
-    "content": "5926e68e"
-  },
-  "/docs/introduction/overview-48e": {
-    "__comp": "17896441",
-    "content": "d3a60d14"
-  },
-  "/docs/introduction/physical-ai-definition-6c0": {
-    "__comp": "17896441",
-    "content": "cb35acd1"
-  },
-  "/docs/introduction/prerequisites-355": {
-    "__comp": "17896441",
-    "content": "c2699fe2"
-  },
-  "/docs/perception-systems/computer-vision-769": {
-    "__comp": "17896441",
-    "content": "9dd3ffdf"
-  },
-  "/docs/perception-systems/lidar-sensors-481": {
-    "__comp": "17896441",
-    "content": "02f3f4ab"
-  },
-  "/docs/perception-systems/sensor-fusion-6af": {
-    "__comp": "17896441",
-    "content": "14d6158c"
-  },
-  "/docs/perception-systems/slam-d8a": {
-    "__comp": "17896441",
-    "content": "680f2648"
-  },
-  "/docs/robotics-fundamentals/actuators-sensors-d25": {
-    "__comp": "17896441",
-    "content": "ab8f0aca"
-  },
-  "/docs/robotics-fundamentals/control-theory-309": {
-    "__comp": "17896441",
-    "content": "23d8a802"
-  },
-  "/docs/robotics-fundamentals/dynamics-02b": {
-    "__comp": "17896441",
-    "content": "d937bab9"
-  },
-  "/docs/robotics-fundamentals/kinematics-add": {
-    "__comp": "17896441",
-    "content": "c4f49cab"
-  },
-  "/-e5f": {
-    "__comp": "1df93b7f",
+  "/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/config-3f5": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-docusaurus-debugb-38-099"
+    }
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/content-0b9": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-docusaurus-debugb-38-099"
     },
-    "config": "5e9f5e1a"
+    "__props": "__props---master-physical-ai-humanoid-robotics-docusaurus-debug-content-03-a-e67"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/globalData-af8": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-docusaurus-debugb-38-099"
+    }
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/metadata-ac5": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-docusaurus-debugb-38-099"
+    }
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/registry-4f2": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-docusaurus-debugb-38-099"
+    }
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/__docusaurus/debug/routes-20e": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-docusaurus-debugb-38-099"
+    }
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/index-professional-d34": {
+    "__comp": "__comp---site-src-pages-index-professional-tsxe-9-a-a4f",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-index-professionala-74-c6d"
+    },
+    "config": "config---master-physical-ai-humanoid-robotics-index-professional-5-e-9-bf3"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/markdown-page-eae": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-index-professionala-74-c6d"
+    },
+    "content": "content---master-physical-ai-humanoid-robotics-markdown-page-393-bce"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/signin-d0e": {
+    "__comp": "__comp---site-src-pages-signin-tsx-6-f-7-bfe",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-index-professionala-74-c6d"
+    },
+    "config": "config---master-physical-ai-humanoid-robotics-index-professional-5-e-9-bf3"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/signup-6de": {
+    "__comp": "__comp---site-src-pages-signup-tsx-8-d-9-369",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-index-professionala-74-c6d"
+    },
+    "config": "config---master-physical-ai-humanoid-robotics-index-professional-5-e-9-bf3"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs-b2e": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-docsaba-548"
+    }
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs-bc2": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---master-physical-ai-humanoid-robotics-docs-9-c-6-08d"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs-83d": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models-016": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-ai-for-robotics-foundation-modelsdcb-d14"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/reinforcement-learning-ca8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-ai-for-robotics-reinforcement-learningcb-0-a37"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/deployment-ethics/safety-systems-ea1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-deployment-ethics-safety-systemsfc-4-b2e"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/bipedal-locomotion-c84": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-humanoid-robotics-bipedal-locomotion-27-a-91a"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/manipulation-grasping-e8f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-humanoid-robotics-manipulation-grasping-884-1b6"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/intro-bd3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-intro-0-e-3-020"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/introduction/curriculum-guide-ff3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-introduction-curriculum-guide-592-8f1"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/introduction/overview-2d4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-introduction-overviewd-3-a-a48"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/introduction/physical-ai-definition-7e7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-introduction-physical-ai-definitioncb-3-43f"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/introduction/prerequisites-a5b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-introduction-prerequisitesc-26-05c"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/computer-vision-dea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-perception-systems-computer-vision-9-dd-35b"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/lidar-sensors-e05": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-perception-systems-lidar-sensors-02-f-0ee"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/sensor-fusion-d9d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-perception-systems-sensor-fusion-14-d-a18"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/slam-93c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-perception-systems-slam-680-1f4"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/actuators-sensors-59e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-robotics-fundamentals-actuators-sensorsab-8-1f8"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/control-theory-400": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-robotics-fundamentals-control-theory-23-d-4e2"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/dynamics-5aa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-robotics-fundamentals-dynamicsd-93-62b"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/kinematics-391": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---master-physical-ai-humanoid-robotics-docs-robotics-fundamentals-kinematicsc-4-f-d38"
+  },
+  "/Master-Physical-AI-Humanoid-Robotics/-6e4": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---master-physical-ai-humanoid-robotics-index-professionala-74-c6d"
+    },
+    "config": "config---master-physical-ai-humanoid-robotics-index-professional-5-e-9-bf3"
   }
 }

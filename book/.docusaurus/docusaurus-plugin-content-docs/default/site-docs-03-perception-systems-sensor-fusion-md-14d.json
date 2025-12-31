@@ -5,7 +5,7 @@
   "source": "@site/docs/03-perception-systems/sensor-fusion.md",
   "sourceDirName": "03-perception-systems",
   "slug": "/perception-systems/sensor-fusion",
-  "permalink": "/docs/perception-systems/sensor-fusion",
+  "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/sensor-fusion",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "LiDAR and 3D Sensors",
-    "permalink": "/docs/perception-systems/lidar-sensors"
+    "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/lidar-sensors"
   },
   "next": {
     "title": "SLAM (Simultaneous Localization and Mapping)",
-    "permalink": "/docs/perception-systems/slam"
+    "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/slam"
   }
 }
