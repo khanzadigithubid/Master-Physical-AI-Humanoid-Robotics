@@ -3,859 +3,463 @@
     "main"
   ],
   "origins": {
-    "2237": [
-      2237
+    "618": [
+      618
     ],
-    "3269": [
-      867,
-      1869,
-      3249,
-      4212,
-      4813,
-      5159,
-      7643,
-      3269
-    ],
-    "5159": [
-      867,
-      1869,
-      3249,
-      3269,
-      4813,
-      6061,
-      7643,
-      8401,
-      5159
+    "711": [
+      61,
+      401,
+      869,
+      711
     ],
     "17896441": [
-      1869,
-      5159,
-      8401
-    ],
-    "52693006": [
-      3998
-    ],
-    "92081643": [
-      768
+      711,
+      869,
+      401
     ],
     "main": [
-      1869,
-      5354,
-      8792
+      354,
+      869,
+      792
     ],
     "runtime~main": [
-      1869,
-      8792,
-      5354
-    ],
-    "0058b4c6": [
-      849
-    ],
-    "01a85c17": [
-      1869,
-      8209
+      792,
+      869,
+      354
     ],
     "02f3f4ab": [
-      7459
+      459
     ],
     "0e384e19": [
-      3976
-    ],
-    "116c17e4": [
-      6487
+      976
     ],
     "14d6158c": [
-      9747
-    ],
-    "1c020c0f": [
-      744
+      747
     ],
     "1df93b7f": [
-      1869,
-      4583
+      869,
+      583
     ],
     "1f391b9e": [
-      1869,
-      5159,
-      6061
+      711,
+      869,
+      61
     ],
     "23d8a802": [
-      8999
+      999
     ],
     "27ad188d": [
-      1378
-    ],
-    "33fc5bb8": [
-      1869,
-      3269,
-      5159,
-      867
-    ],
-    "36994c47": [
-      9858
+      378
     ],
     "393be207": [
-      4134
-    ],
-    "3a2db09e": [
-      8121
+      134
     ],
     "5926e68e": [
-      7541
+      541
     ],
     "5e95c892": [
-      9647
-    ],
-    "60d2d3a9": [
-      4866
-    ],
-    "621db11d": [
-      1869,
-      3269,
-      4212
+      647
     ],
     "680f2648": [
-      7087
-    ],
-    "6875c492": [
-      1869,
-      3269,
-      5159,
-      4813
+      87
     ],
     "6f7d680a": [
-      1869,
-      8777
-    ],
-    "80f1f3e0": [
-      682
-    ],
-    "814f3328": [
-      7472
+      869,
+      777
     ],
     "884b0d5e": [
       19
     ],
-    "887ad799": [
-      1838
-    ],
     "8d9bf57a": [
-      1869,
-      8353
+      869,
+      353
     ],
-    "8f5bc388": [
-      2474
-    ],
-    "9345eb8d": [
-      4891
+    "9c6d07e2": [
+      259
     ],
     "9dd3ffdf": [
-      8237
-    ],
-    "9e4087bc": [
-      2711
-    ],
-    "a6aa9e1f": [
-      1869,
-      3269,
-      5159,
-      7643
+      237
     ],
     "a7456010": [
-      1235
+      235
     ],
     "a7bd4aaa": [
-      7098
+      98
     ],
     "a94703ab": [
-      1869,
-      9048
+      869,
+      48
     ],
     "ab8f0aca": [
-      6345
+      345
     ],
     "aba21aa0": [
-      5742
-    ],
-    "acecf23e": [
-      1903
-    ],
-    "bfbc7420": [
-      5837
-    ],
-    "c15d9823": [
-      8146
+      742
     ],
     "c2699fe2": [
-      4647
-    ],
-    "c29f9852": [
-      819
+      28
     ],
     "c4f49cab": [
-      1869,
       25
     ],
     "cb028983": [
-      3360
+      360
     ],
     "cb35acd1": [
-      2969
-    ],
-    "ccc49370": [
-      1869,
-      3269,
-      5159,
-      3249
-    ],
-    "ccd21804": [
-      4000
+      969
     ],
     "d3a60d14": [
-      6234
+      234
     ],
     "d937bab9": [
-      6700
-    ],
-    "daa4903b": [
-      1329
+      700
     ],
     "dcbaaba1": [
-      9904
+      904
     ],
     "e9ad20c6": [
-      1869,
-      3699
-    ],
-    "ec552357": [
-      2616
-    ],
-    "ef8b811a": [
-      8947
-    ],
-    "f42c603f": [
-      7245
-    ],
-    "f81c1134": [
-      8130
+      869,
+      699
     ],
     "fc4cd291": [
-      9633
+      633
     ],
     "styles": [
-      25,
-      867,
-      3249,
-      3269,
-      3699,
-      4212,
-      4583,
-      4813,
-      5159,
-      5354,
-      6061,
-      7643,
-      8209,
-      8353,
-      8401,
-      8777,
-      8792,
-      9048,
-      1869
+      48,
+      61,
+      353,
+      354,
+      401,
+      583,
+      699,
+      711,
+      777,
+      792,
+      869
     ]
   },
   "assets": {
     "19": {
       "js": [
         {
-          "file": "assets/js/884b0d5e.8ebfb9cb.js",
-          "hash": "2b41e1bd26cbce55",
-          "publicPath": "/assets/js/884b0d5e.8ebfb9cb.js"
+          "file": "assets/js/884b0d5e.2e7fd335.js",
+          "hash": "a2726dc129dfc0bf",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/884b0d5e.2e7fd335.js"
         }
       ]
     },
     "25": {
       "js": [
         {
-          "file": "assets/js/c4f49cab.bbb10892.js",
-          "hash": "6b3e6f795abb88f6",
-          "publicPath": "/assets/js/c4f49cab.bbb10892.js"
+          "file": "assets/js/c4f49cab.7c1a4ee0.js",
+          "hash": "f52d1140e6dcd969",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/c4f49cab.7c1a4ee0.js"
         }
       ]
     },
-    "682": {
+    "28": {
       "js": [
         {
-          "file": "assets/js/80f1f3e0.b862bddf.js",
-          "hash": "4731a65483c24d37",
-          "publicPath": "/assets/js/80f1f3e0.b862bddf.js"
+          "file": "assets/js/c2699fe2.6a17e3d7.js",
+          "hash": "d09936864d2189de",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/c2699fe2.6a17e3d7.js"
         }
       ]
     },
-    "744": {
+    "48": {
       "js": [
         {
-          "file": "assets/js/1c020c0f.08c8ba28.js",
-          "hash": "2e0cde127993573d",
-          "publicPath": "/assets/js/1c020c0f.08c8ba28.js"
+          "file": "assets/js/a94703ab.20c7ca52.js",
+          "hash": "580d02034077e4d9",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/a94703ab.20c7ca52.js"
         }
       ]
     },
-    "768": {
+    "61": {
       "js": [
         {
-          "file": "assets/js/92081643.749092aa.js",
-          "hash": "dac49bcccd81c083",
-          "publicPath": "/assets/js/92081643.749092aa.js"
+          "file": "assets/js/1f391b9e.ac744282.js",
+          "hash": "d720e30b664cb1ce",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/1f391b9e.ac744282.js"
         }
       ]
     },
-    "819": {
+    "87": {
       "js": [
         {
-          "file": "assets/js/c29f9852.c4d26e48.js",
-          "hash": "639a4b8250c068a3",
-          "publicPath": "/assets/js/c29f9852.c4d26e48.js"
+          "file": "assets/js/680f2648.1639ad5b.js",
+          "hash": "7687290c5edd7c9d",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/680f2648.1639ad5b.js"
         }
       ]
     },
-    "849": {
+    "98": {
       "js": [
         {
-          "file": "assets/js/0058b4c6.9c3a95e3.js",
-          "hash": "15f2d34f13a74887",
-          "publicPath": "/assets/js/0058b4c6.9c3a95e3.js"
+          "file": "assets/js/a7bd4aaa.27f47be0.js",
+          "hash": "ac8377b702f9b8a1",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/a7bd4aaa.27f47be0.js"
         }
       ]
     },
-    "867": {
+    "134": {
       "js": [
         {
-          "file": "assets/js/33fc5bb8.50980f5d.js",
-          "hash": "302a415024a10472",
-          "publicPath": "/assets/js/33fc5bb8.50980f5d.js"
+          "file": "assets/js/393be207.2daf8222.js",
+          "hash": "d008d15469dbf2b2",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/393be207.2daf8222.js"
         }
       ]
     },
-    "1235": {
+    "234": {
       "js": [
         {
-          "file": "assets/js/a7456010.95ca6bc1.js",
-          "hash": "c99daf5591e577d6",
-          "publicPath": "/assets/js/a7456010.95ca6bc1.js"
+          "file": "assets/js/d3a60d14.3af92a4e.js",
+          "hash": "0ce6e49deb9e915a",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/d3a60d14.3af92a4e.js"
         }
       ]
     },
-    "1329": {
+    "235": {
       "js": [
         {
-          "file": "assets/js/daa4903b.2ee46a4c.js",
-          "hash": "40a8c01a77d642ac",
-          "publicPath": "/assets/js/daa4903b.2ee46a4c.js"
+          "file": "assets/js/a7456010.0cf8cf60.js",
+          "hash": "a30d230bfff763ad",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/a7456010.0cf8cf60.js"
         }
       ]
     },
-    "1378": {
+    "237": {
       "js": [
         {
-          "file": "assets/js/27ad188d.83e759cb.js",
-          "hash": "abb65e6a1bf45302",
-          "publicPath": "/assets/js/27ad188d.83e759cb.js"
+          "file": "assets/js/9dd3ffdf.87089f4e.js",
+          "hash": "d3f390abdcb9a344",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/9dd3ffdf.87089f4e.js"
         }
       ]
     },
-    "1838": {
+    "259": {
       "js": [
         {
-          "file": "assets/js/887ad799.c0458b52.js",
-          "hash": "452b7ce881fdd051",
-          "publicPath": "/assets/js/887ad799.c0458b52.js"
+          "file": "assets/js/9c6d07e2.307c7a8f.js",
+          "hash": "bedc78a90c419590",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/9c6d07e2.307c7a8f.js"
         }
       ]
     },
-    "1869": {
+    "345": {
+      "js": [
+        {
+          "file": "assets/js/ab8f0aca.1f05c524.js",
+          "hash": "b1c1f565d49d40d1",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/ab8f0aca.1f05c524.js"
+        }
+      ]
+    },
+    "353": {
+      "js": [
+        {
+          "file": "assets/js/8d9bf57a.2033549a.js",
+          "hash": "790afbce6e8e4049",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/8d9bf57a.2033549a.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.4cc74e3b.js",
+          "hash": "a161e88b041d3fe3",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/runtime~main.4cc74e3b.js"
+        }
+      ]
+    },
+    "360": {
+      "js": [
+        {
+          "file": "assets/js/cb028983.6edebbe4.js",
+          "hash": "da08dba67e3cfef8",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/cb028983.6edebbe4.js"
+        }
+      ]
+    },
+    "378": {
+      "js": [
+        {
+          "file": "assets/js/27ad188d.8017e6ca.js",
+          "hash": "002431f32dd7895e",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/27ad188d.8017e6ca.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.f4b4b2fe.js",
+          "hash": "eab45ced7031b19b",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/17896441.f4b4b2fe.js"
+        }
+      ]
+    },
+    "459": {
+      "js": [
+        {
+          "file": "assets/js/02f3f4ab.e21b84f1.js",
+          "hash": "722b5d085ac3ef67",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/02f3f4ab.e21b84f1.js"
+        }
+      ]
+    },
+    "541": {
+      "js": [
+        {
+          "file": "assets/js/5926e68e.d4442dbd.js",
+          "hash": "181b66b5bb26a5df",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/5926e68e.d4442dbd.js"
+        }
+      ]
+    },
+    "583": {
+      "js": [
+        {
+          "file": "assets/js/1df93b7f.69d68236.js",
+          "hash": "704806eb6fdad80e",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/1df93b7f.69d68236.js"
+        }
+      ]
+    },
+    "618": {
+      "js": [
+        {
+          "file": "assets/js/618.e32b4e03.js",
+          "hash": "df5be3f6b51dc2ea",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/618.e32b4e03.js"
+        }
+      ]
+    },
+    "633": {
+      "js": [
+        {
+          "file": "assets/js/fc4cd291.c42c87c5.js",
+          "hash": "a9441990495699bd",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/fc4cd291.c42c87c5.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.3823664f.js",
+          "hash": "f5b761458a52bddf",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/5e95c892.3823664f.js"
+        }
+      ]
+    },
+    "699": {
+      "js": [
+        {
+          "file": "assets/js/e9ad20c6.c3b50e7e.js",
+          "hash": "4f2e589e2999b554",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/e9ad20c6.c3b50e7e.js"
+        }
+      ]
+    },
+    "700": {
+      "js": [
+        {
+          "file": "assets/js/d937bab9.3948c679.js",
+          "hash": "474b2c10107d6297",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/d937bab9.3948c679.js"
+        }
+      ]
+    },
+    "711": {
+      "js": [
+        {
+          "file": "assets/js/711.d2813c6d.js",
+          "hash": "bcfe2bdd563ff92c",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/711.d2813c6d.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.0f8ddc08.js",
+          "hash": "6a82d2ae30971b23",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/aba21aa0.0f8ddc08.js"
+        }
+      ]
+    },
+    "747": {
+      "js": [
+        {
+          "file": "assets/js/14d6158c.649af3f3.js",
+          "hash": "ef5f771086f32d69",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/14d6158c.649af3f3.js"
+        }
+      ]
+    },
+    "777": {
+      "js": [
+        {
+          "file": "assets/js/6f7d680a.ca86965b.js",
+          "hash": "e8e5b29d1c3d7209",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/6f7d680a.ca86965b.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.d475024e.js",
+          "hash": "df9b160f47f335fb",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/main.d475024e.js"
+        }
+      ]
+    },
+    "869": {
       "css": [
         {
-          "file": "assets/css/styles.9ba84371.css",
-          "hash": "392ca0fcdf31efee",
-          "publicPath": "/assets/css/styles.9ba84371.css"
+          "file": "assets/css/styles.7e04d39e.css",
+          "hash": "a174998ca00839a4",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/css/styles.7e04d39e.css"
         }
       ]
     },
-    "1903": {
+    "904": {
       "js": [
         {
-          "file": "assets/js/acecf23e.5d965fcf.js",
-          "hash": "39cf8797008d2533",
-          "publicPath": "/assets/js/acecf23e.5d965fcf.js"
+          "file": "assets/js/dcbaaba1.7ce1ac55.js",
+          "hash": "40fdb2a5bfb9cc7c",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/dcbaaba1.7ce1ac55.js"
         }
       ]
     },
-    "2237": {
+    "969": {
       "js": [
         {
-          "file": "assets/js/2237.4a22ee8c.js",
-          "hash": "dc96f06462afd4ad",
-          "publicPath": "/assets/js/2237.4a22ee8c.js"
+          "file": "assets/js/cb35acd1.f98abba1.js",
+          "hash": "8dc65c781e6e5f5b",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/cb35acd1.f98abba1.js"
         }
       ]
     },
-    "2474": {
+    "976": {
       "js": [
         {
-          "file": "assets/js/8f5bc388.c791b276.js",
-          "hash": "f5987ccad7aea079",
-          "publicPath": "/assets/js/8f5bc388.c791b276.js"
+          "file": "assets/js/0e384e19.4c40ef44.js",
+          "hash": "539a511782e331c8",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/0e384e19.4c40ef44.js"
         }
       ]
     },
-    "2616": {
+    "999": {
       "js": [
         {
-          "file": "assets/js/ec552357.1c9d57b7.js",
-          "hash": "2bdc7dba1663de2f",
-          "publicPath": "/assets/js/ec552357.1c9d57b7.js"
-        }
-      ]
-    },
-    "2711": {
-      "js": [
-        {
-          "file": "assets/js/9e4087bc.50a5a8ca.js",
-          "hash": "affdd20b2d99c55b",
-          "publicPath": "/assets/js/9e4087bc.50a5a8ca.js"
-        }
-      ]
-    },
-    "2969": {
-      "js": [
-        {
-          "file": "assets/js/cb35acd1.13dc893a.js",
-          "hash": "171f3add15d2086b",
-          "publicPath": "/assets/js/cb35acd1.13dc893a.js"
-        }
-      ]
-    },
-    "3249": {
-      "js": [
-        {
-          "file": "assets/js/ccc49370.5bbd5631.js",
-          "hash": "a518b1f50d9888a0",
-          "publicPath": "/assets/js/ccc49370.5bbd5631.js"
-        }
-      ]
-    },
-    "3269": {
-      "js": [
-        {
-          "file": "assets/js/3269.f0011ffa.js",
-          "hash": "1901d5aaa0fa7ced",
-          "publicPath": "/assets/js/3269.f0011ffa.js"
-        }
-      ]
-    },
-    "3360": {
-      "js": [
-        {
-          "file": "assets/js/cb028983.4f941e7e.js",
-          "hash": "4ac9115d5528215a",
-          "publicPath": "/assets/js/cb028983.4f941e7e.js"
-        }
-      ]
-    },
-    "3699": {
-      "js": [
-        {
-          "file": "assets/js/e9ad20c6.1dc5a3ce.js",
-          "hash": "9f7b8ec4fe01f46f",
-          "publicPath": "/assets/js/e9ad20c6.1dc5a3ce.js"
-        }
-      ]
-    },
-    "3976": {
-      "js": [
-        {
-          "file": "assets/js/0e384e19.40835fa4.js",
-          "hash": "eedfb3bfcfd54954",
-          "publicPath": "/assets/js/0e384e19.40835fa4.js"
-        }
-      ]
-    },
-    "3998": {
-      "js": [
-        {
-          "file": "assets/js/52693006.6d3aac67.js",
-          "hash": "72bcba3a1d3563d6",
-          "publicPath": "/assets/js/52693006.6d3aac67.js"
-        }
-      ]
-    },
-    "4000": {
-      "js": [
-        {
-          "file": "assets/js/ccd21804.2fc966c7.js",
-          "hash": "9ae0c22b662b5ecb",
-          "publicPath": "/assets/js/ccd21804.2fc966c7.js"
-        }
-      ]
-    },
-    "4134": {
-      "js": [
-        {
-          "file": "assets/js/393be207.044eae1c.js",
-          "hash": "040b4dee9adcef1a",
-          "publicPath": "/assets/js/393be207.044eae1c.js"
-        }
-      ]
-    },
-    "4212": {
-      "js": [
-        {
-          "file": "assets/js/621db11d.416fe6b1.js",
-          "hash": "00c144fcdcc583ba",
-          "publicPath": "/assets/js/621db11d.416fe6b1.js"
-        }
-      ]
-    },
-    "4583": {
-      "js": [
-        {
-          "file": "assets/js/1df93b7f.13d3a2c6.js",
-          "hash": "4e58daddd4a54ffc",
-          "publicPath": "/assets/js/1df93b7f.13d3a2c6.js"
-        }
-      ]
-    },
-    "4647": {
-      "js": [
-        {
-          "file": "assets/js/c2699fe2.2ad4272a.js",
-          "hash": "89c01813d4aff955",
-          "publicPath": "/assets/js/c2699fe2.2ad4272a.js"
-        }
-      ]
-    },
-    "4813": {
-      "js": [
-        {
-          "file": "assets/js/6875c492.a177c973.js",
-          "hash": "9d561bdcc2ff9feb",
-          "publicPath": "/assets/js/6875c492.a177c973.js"
-        }
-      ]
-    },
-    "4866": {
-      "js": [
-        {
-          "file": "assets/js/60d2d3a9.5ad50e84.js",
-          "hash": "7f235925c5341999",
-          "publicPath": "/assets/js/60d2d3a9.5ad50e84.js"
-        }
-      ]
-    },
-    "4891": {
-      "js": [
-        {
-          "file": "assets/js/9345eb8d.87591e91.js",
-          "hash": "2dab7de3f614d268",
-          "publicPath": "/assets/js/9345eb8d.87591e91.js"
-        }
-      ]
-    },
-    "5159": {
-      "js": [
-        {
-          "file": "assets/js/5159.7fe69294.js",
-          "hash": "fa92a9b5d785b2ee",
-          "publicPath": "/assets/js/5159.7fe69294.js"
-        }
-      ]
-    },
-    "5354": {
-      "js": [
-        {
-          "file": "assets/js/runtime~main.0c6a7111.js",
-          "hash": "1622b0a6d3e53e61",
-          "publicPath": "/assets/js/runtime~main.0c6a7111.js"
-        }
-      ]
-    },
-    "5742": {
-      "js": [
-        {
-          "file": "assets/js/aba21aa0.0a7d8d91.js",
-          "hash": "129852849f8913ce",
-          "publicPath": "/assets/js/aba21aa0.0a7d8d91.js"
-        }
-      ]
-    },
-    "5837": {
-      "js": [
-        {
-          "file": "assets/js/bfbc7420.b4a63dd8.js",
-          "hash": "9066df1e6238077f",
-          "publicPath": "/assets/js/bfbc7420.b4a63dd8.js"
-        }
-      ]
-    },
-    "6061": {
-      "js": [
-        {
-          "file": "assets/js/1f391b9e.784ba2c2.js",
-          "hash": "47ae3939a9e5afed",
-          "publicPath": "/assets/js/1f391b9e.784ba2c2.js"
-        }
-      ]
-    },
-    "6234": {
-      "js": [
-        {
-          "file": "assets/js/d3a60d14.2b69fb3c.js",
-          "hash": "6848657360c59c35",
-          "publicPath": "/assets/js/d3a60d14.2b69fb3c.js"
-        }
-      ]
-    },
-    "6345": {
-      "js": [
-        {
-          "file": "assets/js/ab8f0aca.2f94c57b.js",
-          "hash": "091b1344dd788203",
-          "publicPath": "/assets/js/ab8f0aca.2f94c57b.js"
-        }
-      ]
-    },
-    "6487": {
-      "js": [
-        {
-          "file": "assets/js/116c17e4.9901f77e.js",
-          "hash": "f151e092064c5766",
-          "publicPath": "/assets/js/116c17e4.9901f77e.js"
-        }
-      ]
-    },
-    "6700": {
-      "js": [
-        {
-          "file": "assets/js/d937bab9.55ddd9a9.js",
-          "hash": "3a85f8f6f4ec0f99",
-          "publicPath": "/assets/js/d937bab9.55ddd9a9.js"
-        }
-      ]
-    },
-    "7087": {
-      "js": [
-        {
-          "file": "assets/js/680f2648.26592db8.js",
-          "hash": "b7d10869a655291d",
-          "publicPath": "/assets/js/680f2648.26592db8.js"
-        }
-      ]
-    },
-    "7098": {
-      "js": [
-        {
-          "file": "assets/js/a7bd4aaa.fe87b008.js",
-          "hash": "28a968839d0c1a8e",
-          "publicPath": "/assets/js/a7bd4aaa.fe87b008.js"
-        }
-      ]
-    },
-    "7245": {
-      "js": [
-        {
-          "file": "assets/js/f42c603f.ad86fba1.js",
-          "hash": "e724c12086a06130",
-          "publicPath": "/assets/js/f42c603f.ad86fba1.js"
-        }
-      ]
-    },
-    "7459": {
-      "js": [
-        {
-          "file": "assets/js/02f3f4ab.e3a5193c.js",
-          "hash": "25d22fd5666b61a5",
-          "publicPath": "/assets/js/02f3f4ab.e3a5193c.js"
-        }
-      ]
-    },
-    "7472": {
-      "js": [
-        {
-          "file": "assets/js/814f3328.ff9761ec.js",
-          "hash": "a4cffc68315b0c73",
-          "publicPath": "/assets/js/814f3328.ff9761ec.js"
-        }
-      ]
-    },
-    "7541": {
-      "js": [
-        {
-          "file": "assets/js/5926e68e.a3ce0513.js",
-          "hash": "4c8a32552a973714",
-          "publicPath": "/assets/js/5926e68e.a3ce0513.js"
-        }
-      ]
-    },
-    "7643": {
-      "js": [
-        {
-          "file": "assets/js/a6aa9e1f.4033a9c2.js",
-          "hash": "c0877322faac147b",
-          "publicPath": "/assets/js/a6aa9e1f.4033a9c2.js"
-        }
-      ]
-    },
-    "8121": {
-      "js": [
-        {
-          "file": "assets/js/3a2db09e.86ea927c.js",
-          "hash": "260a2d5c04fdd2fc",
-          "publicPath": "/assets/js/3a2db09e.86ea927c.js"
-        }
-      ]
-    },
-    "8130": {
-      "js": [
-        {
-          "file": "assets/js/f81c1134.5aa5b98f.js",
-          "hash": "b0150f7bcc70f96b",
-          "publicPath": "/assets/js/f81c1134.5aa5b98f.js"
-        }
-      ]
-    },
-    "8146": {
-      "js": [
-        {
-          "file": "assets/js/c15d9823.16d13115.js",
-          "hash": "eacfc6205aab75c8",
-          "publicPath": "/assets/js/c15d9823.16d13115.js"
-        }
-      ]
-    },
-    "8209": {
-      "js": [
-        {
-          "file": "assets/js/01a85c17.867e9347.js",
-          "hash": "eddf7634d5d6c665",
-          "publicPath": "/assets/js/01a85c17.867e9347.js"
-        }
-      ]
-    },
-    "8237": {
-      "js": [
-        {
-          "file": "assets/js/9dd3ffdf.a80e0db0.js",
-          "hash": "a75f8ec9765e5ec2",
-          "publicPath": "/assets/js/9dd3ffdf.a80e0db0.js"
-        }
-      ]
-    },
-    "8353": {
-      "js": [
-        {
-          "file": "assets/js/8d9bf57a.b49aaf82.js",
-          "hash": "d78c7656279ad144",
-          "publicPath": "/assets/js/8d9bf57a.b49aaf82.js"
-        }
-      ]
-    },
-    "8401": {
-      "js": [
-        {
-          "file": "assets/js/17896441.af669b7f.js",
-          "hash": "ccadbf2cfe71b93e",
-          "publicPath": "/assets/js/17896441.af669b7f.js"
-        }
-      ]
-    },
-    "8777": {
-      "js": [
-        {
-          "file": "assets/js/6f7d680a.589cdc82.js",
-          "hash": "fc8aec3d7bdf74aa",
-          "publicPath": "/assets/js/6f7d680a.589cdc82.js"
-        }
-      ]
-    },
-    "8792": {
-      "js": [
-        {
-          "file": "assets/js/main.0ba97079.js",
-          "hash": "be5147a800c659b7",
-          "publicPath": "/assets/js/main.0ba97079.js"
-        }
-      ]
-    },
-    "8947": {
-      "js": [
-        {
-          "file": "assets/js/ef8b811a.c84444c9.js",
-          "hash": "6c266905a52c98cd",
-          "publicPath": "/assets/js/ef8b811a.c84444c9.js"
-        }
-      ]
-    },
-    "8999": {
-      "js": [
-        {
-          "file": "assets/js/23d8a802.fe36e58b.js",
-          "hash": "a1ed79b4e7b045a0",
-          "publicPath": "/assets/js/23d8a802.fe36e58b.js"
-        }
-      ]
-    },
-    "9048": {
-      "js": [
-        {
-          "file": "assets/js/a94703ab.825974fb.js",
-          "hash": "4a9d3b0fcef9bacd",
-          "publicPath": "/assets/js/a94703ab.825974fb.js"
-        }
-      ]
-    },
-    "9633": {
-      "js": [
-        {
-          "file": "assets/js/fc4cd291.4894d5e9.js",
-          "hash": "77c02a55769bf6c7",
-          "publicPath": "/assets/js/fc4cd291.4894d5e9.js"
-        }
-      ]
-    },
-    "9647": {
-      "js": [
-        {
-          "file": "assets/js/5e95c892.dd2c4e80.js",
-          "hash": "f368401cd93f6427",
-          "publicPath": "/assets/js/5e95c892.dd2c4e80.js"
-        }
-      ]
-    },
-    "9747": {
-      "js": [
-        {
-          "file": "assets/js/14d6158c.a0f04554.js",
-          "hash": "e73bf01f94516e69",
-          "publicPath": "/assets/js/14d6158c.a0f04554.js"
-        }
-      ]
-    },
-    "9858": {
-      "js": [
-        {
-          "file": "assets/js/36994c47.5f513a45.js",
-          "hash": "ddbf9bef988a6bea",
-          "publicPath": "/assets/js/36994c47.5f513a45.js"
-        }
-      ]
-    },
-    "9904": {
-      "js": [
-        {
-          "file": "assets/js/dcbaaba1.7d5c3c83.js",
-          "hash": "ee8d56893990d08a",
-          "publicPath": "/assets/js/dcbaaba1.7d5c3c83.js"
+          "file": "assets/js/23d8a802.4758b212.js",
+          "hash": "f6cf1016c1d37b8f",
+          "publicPath": "/Master-Physical-AI-Humanoid-Robotics/assets/js/23d8a802.4758b212.js"
         }
       ]
     }

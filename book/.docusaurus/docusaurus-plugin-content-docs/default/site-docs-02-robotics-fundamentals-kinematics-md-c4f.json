@@ -5,7 +5,7 @@
   "source": "@site/docs/02-robotics-fundamentals/kinematics.md",
   "sourceDirName": "02-robotics-fundamentals",
   "slug": "/robotics-fundamentals/kinematics",
-  "permalink": "/docs/robotics-fundamentals/kinematics",
+  "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/kinematics",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Prerequisites",
-    "permalink": "/docs/introduction/prerequisites"
+    "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/introduction/prerequisites"
   },
   "next": {
     "title": "Dynamics and Force Control",
-    "permalink": "/docs/robotics-fundamentals/dynamics"
+    "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/dynamics"
   }
 }

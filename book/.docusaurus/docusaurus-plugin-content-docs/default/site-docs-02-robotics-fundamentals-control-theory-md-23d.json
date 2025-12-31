@@ -5,7 +5,7 @@
   "source": "@site/docs/02-robotics-fundamentals/control-theory.md",
   "sourceDirName": "02-robotics-fundamentals",
   "slug": "/robotics-fundamentals/control-theory",
-  "permalink": "/docs/robotics-fundamentals/control-theory",
+  "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/control-theory",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Dynamics and Force Control",
-    "permalink": "/docs/robotics-fundamentals/dynamics"
+    "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/dynamics"
   },
   "next": {
     "title": "Actuators and Sensors",
-    "permalink": "/docs/robotics-fundamentals/actuators-sensors"
+    "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/actuators-sensors"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/04-ai-for-robotics/reinforcement-learning.md",
   "sourceDirName": "04-ai-for-robotics",
   "slug": "/ai-for-robotics/reinforcement-learning",
-  "permalink": "/docs/ai-for-robotics/reinforcement-learning",
+  "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/reinforcement-learning",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "SLAM (Simultaneous Localization and Mapping)",
-    "permalink": "/docs/perception-systems/slam"
+    "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/slam"
   },
   "next": {
     "title": "Foundation Models for Robotics",
-    "permalink": "/docs/ai-for-robotics/foundation-models"
+    "permalink": "/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models"
   }
 }

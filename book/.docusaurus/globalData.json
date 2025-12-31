@@ -1,103 +1,103 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/Master-Physical-AI-Humanoid-Robotics/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/Master-Physical-AI-Humanoid-Robotics/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "ai-for-robotics/foundation-models",
-              "path": "/docs/ai-for-robotics/foundation-models",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/foundation-models",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "ai-for-robotics/reinforcement-learning",
-              "path": "/docs/ai-for-robotics/reinforcement-learning",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/ai-for-robotics/reinforcement-learning",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "deployment-ethics/safety-systems",
-              "path": "/docs/deployment-ethics/safety-systems",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/deployment-ethics/safety-systems",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "humanoid-robotics/bipedal-locomotion",
-              "path": "/docs/humanoid-robotics/bipedal-locomotion",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/bipedal-locomotion",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "humanoid-robotics/manipulation-grasping",
-              "path": "/docs/humanoid-robotics/manipulation-grasping",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/humanoid-robotics/manipulation-grasping",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "introduction/curriculum-guide",
-              "path": "/docs/introduction/curriculum-guide",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/introduction/curriculum-guide",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "introduction/overview",
-              "path": "/docs/introduction/overview",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/introduction/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "introduction/physical-ai-definition",
-              "path": "/docs/introduction/physical-ai-definition",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/introduction/physical-ai-definition",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "introduction/prerequisites",
-              "path": "/docs/introduction/prerequisites",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/introduction/prerequisites",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "perception-systems/computer-vision",
-              "path": "/docs/perception-systems/computer-vision",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/computer-vision",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "perception-systems/lidar-sensors",
-              "path": "/docs/perception-systems/lidar-sensors",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/lidar-sensors",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "perception-systems/sensor-fusion",
-              "path": "/docs/perception-systems/sensor-fusion",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/sensor-fusion",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "perception-systems/slam",
-              "path": "/docs/perception-systems/slam",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/perception-systems/slam",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "robotics-fundamentals/actuators-sensors",
-              "path": "/docs/robotics-fundamentals/actuators-sensors",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/actuators-sensors",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "robotics-fundamentals/control-theory",
-              "path": "/docs/robotics-fundamentals/control-theory",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/control-theory",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "robotics-fundamentals/dynamics",
-              "path": "/docs/robotics-fundamentals/dynamics",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/dynamics",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "robotics-fundamentals/kinematics",
-              "path": "/docs/robotics-fundamentals/kinematics",
+              "path": "/Master-Physical-AI-Humanoid-Robotics/docs/robotics-fundamentals/kinematics",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -105,7 +105,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/Master-Physical-AI-Humanoid-Robotics/docs/intro",
                 "label": "📚 Welcome"
               }
             }
