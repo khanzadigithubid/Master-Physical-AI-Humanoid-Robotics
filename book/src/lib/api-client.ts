@@ -144,13 +144,13 @@ async function apiRequest<T>(
 
     // Handle abort/timeout
     if (error instanceof Error && error.name === 'AbortError') {
-      throw new ApiError('Request timed out. Please try again.', undefined, true);
+      throw new ApiError('AI service request timed out. This may take 30-60 seconds for complex questions. Please try again or simplify your question.', undefined, true);
     }
 
     // Handle network errors
     if (error instanceof TypeError && error.message.includes('fetch')) {
       throw new ApiError(
-        'Unable to connect to the AI service. Please check your connection.',
+        'Unable to connect to the AI service. Please check that the backend is running on port 8000.',
         undefined,
         true
       );
@@ -265,7 +265,7 @@ export async function ragQuery(data: RAGQueryRequest): Promise<RAGQueryResponse>
   return apiRequest<RAGQueryResponse>('/api/rag/query', {
     method: 'POST',
     body: JSON.stringify(data),
-  }, 60000); // 60 second timeout for AI responses
+  }, 120000); // 120 second timeout for AI responses (2 minutes)
 }
 
 /**
@@ -276,7 +276,7 @@ export async function checkApiHealth(): Promise<boolean> {
   try {
     await apiRequest<{ status: string }>('/api/health', {
       method: 'GET',
-    }, 5000); // 5 second timeout for health check
+    }, 10000); // 10 second timeout for health check
     return true;
   } catch {
     return false;
@@ -330,5 +330,5 @@ export async function translateContent(
   return apiRequest<TranslateResponse>('/api/translate/urdu', {
     method: 'POST',
     body: JSON.stringify(data),
-  });
+  }, 120000); // 120 second timeout for translation (2 minutes)
 }

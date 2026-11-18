@@ -43,8 +43,8 @@ const SUGGESTED_QUESTIONS = [
 ];
 
 const ERROR_MESSAGES = {
-  network: 'Unable to connect to the AI service. Please check your internet connection and try again.',
-  timeout: 'The request took too long. Please try again with a shorter question.',
+  network: 'Unable to connect to the AI service. Please check that the backend is running on port 8000.',
+  timeout: 'AI service request timed out. Complex questions may take 30-60 seconds. Please try again or simplify your question.',
   generic: 'Something went wrong. Please try again later.',
 };
 

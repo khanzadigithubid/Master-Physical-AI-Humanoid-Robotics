@@ -23,7 +23,7 @@ class GeminiService:
         self.model_name = "gemini-2.5-flash"  # Latest stable, verified working
         self.fallback_model_name = "gemini-flash-latest"  # Alias to latest flash
         self.embedding_model = "text-embedding-004"  # Stable embedding model
-        self.timeout = 60.0  # Increased timeout for network issues
+        self.timeout = 120.0  # Increased timeout for complex translations (2 minutes)
         self.max_retries = 3
         self.base_delay = 1.0  # Base delay for exponential backoff
 
@@ -210,7 +210,7 @@ class GeminiService:
                         task_type="RETRIEVAL_DOCUMENT"
                     )
                 ),
-                timeout=30.0
+                timeout=60.0
             )
             # Accessing embeddings from the new response format
             return response.embeddings[0].values

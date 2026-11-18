@@ -114,7 +114,7 @@ Translated Content (Urdu):"""
                             {"role": "user", "content": prompt}
                         ]
                     ),
-                    timeout=20.0
+                    timeout=120.0
                 )
                 return message.content[0].text
             else:

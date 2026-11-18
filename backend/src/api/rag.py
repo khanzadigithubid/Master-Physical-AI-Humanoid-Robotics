@@ -152,7 +152,7 @@ async def query_rag(
             answer=generation_result["answer"],
             chunks_retrieved=len(chunks),
             confidence=int(confidence * 100),
-            sources=[c.dict() for c in citations],
+            sources=citations,  # Store as list of dicts (JSON serializable)
             latency_ms=latency_ms,
             tokens_used=generation_result["tokens_used"],
             cost_usd=int(generation_result["cost_usd"] * 100),  # Store in cents
